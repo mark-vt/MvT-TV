@@ -3410,6 +3410,10 @@ class MvTTV:
         # Channel list panel, window mode, aspect ratio, title.
         self.list_frame: tk.Frame | None = None
         self.channel_listbox: tk.Listbox | None = None
+        self.channel_search_entry: tk.Entry | None = None
+        self.channel_search_var = tk.StringVar(value="")
+        self.channel_list_indices: list[int] = []
+        self.channel_search_after_id: str | None = None
         self.window_mode = 1             # 1 window, 2 maximized, 3 true fullscreen
         self.normal_geometry = initial_geometry
         self.title_after_id: str | None = None
@@ -3677,6 +3681,8 @@ class MvTTV:
     # Returns: str.
     # Purpose: Run the selected keyboard action and report whether it was handled.
     def run_key_action(self, event: tk.Event, callback: callable) -> str:
+        if self._channel_search_has_focus():
+            return "break"
         self.show_key_overlay(event, arm_timeout=False)
         self.root.update_idletasks()
         try:
@@ -3690,6 +3696,8 @@ class MvTTV:
     # Returns: None.
     # Purpose: Show the keyboard shortcut guide on screen.
     def show_key_overlay(self, event: tk.Event, arm_timeout: bool = True) -> None:
+        if self._channel_search_has_focus():
+            return
         key = event.keysym or event.char or "?"
         if len(key) == 1:
             key = key.upper()
@@ -3699,6 +3707,13 @@ class MvTTV:
         self.key_overlay.update_idletasks()
         if arm_timeout:
             self.arm_key_overlay_timeout()
+
+    # Return whether typing currently belongs to the sender search field.
+    def _channel_search_has_focus(self) -> bool:
+        return (
+            self.channel_search_entry is not None
+            and self.root.focus_get() == self.channel_search_entry
+        )
 
     # Inputs: none.
     # Returns: None.
@@ -5047,25 +5062,67 @@ class MvTTV:
             selectforeground="#ffffff", borderwidth=0, highlightthickness=0,
             yscrollcommand=scrollbar.set,
         )
+        search = tk.Entry(
+            frame, textvariable=self.channel_search_var,
+            font=(family, size, "bold"),
+            background="#fff2b3", foreground="#181818",
+            insertbackground="#181818", relief="flat", borderwidth=0,
+            highlightthickness=2, highlightbackground="#d49b00",
+            highlightcolor="#f0b400",
+        )
+        # Keep Tk's Entry editing bindings and global observers, but omit the
+        # root bind tag where the application's keyboard shortcuts live.
+        search_tags = search.bindtags()
+        search.bindtags((search_tags[0], search_tags[1], search_tags[-1]))
+        search.pack(side="top", fill="x", padx=4, pady=(4, 2))
         scrollbar.configure(command=listbox.yview)
         scrollbar.pack(side="right", fill="y")
         listbox.pack(side="left", fill="both", expand=True)
-        for number, channel in enumerate(self.channels, start=1):
-            listbox.insert("end", f" {number}  {channel.name}")
         self.list_frame = frame
         self.channel_listbox = listbox
+        self.channel_search_entry = search
+        self.channel_search_var.set("")
+        self.channel_list_indices = list(range(len(self.channels)))
+        self._render_channel_list()
+
+        # Wait until typing pauses before applying the case-insensitive filter.
+        def schedule_search(_event: object = None) -> None:
+            if self.channel_search_after_id is not None:
+                self.root.after_cancel(self.channel_search_after_id)
+            self.channel_search_after_id = self.root.after(2000, self._apply_channel_search)
 
         # Inputs: delta.
         # Returns: str.
         # Purpose: Move the selection window to the requested position.
         def move(delta: int) -> str:
+            if not self.channel_list_indices:
+                return "break"
             selection = listbox.curselection()
-            current = selection[0] if selection else self.channel_index
-            target = max(0, min(len(self.channels) - 1, current + delta))
+            current = selection[0] if selection else (-1 if delta > 0 else len(self.channel_list_indices))
+            target = max(0, min(len(self.channel_list_indices) - 1, current + delta))
             listbox.selection_clear(0, "end")
             listbox.selection_set(target)
             listbox.activate(target)
             listbox.see(target)
+            return "break"
+
+        def move_up_from_first(_event: object = None) -> str:
+            selection = listbox.curselection()
+            if selection and selection[0] == 0:
+                listbox.selection_clear(0, "end")
+                search.focus_set()
+                return "break"
+            return move(-1)
+
+        def move_down_from_search(_event: object = None) -> str:
+            if self.channel_list_indices:
+                listbox.focus_set()
+                listbox.selection_clear(0, "end")
+                listbox.selection_set(0)
+                listbox.activate(0)
+                listbox.see(0)
+            else:
+                listbox.focus_set()
             return "break"
 
         # Inputs: _event.
@@ -5074,14 +5131,16 @@ class MvTTV:
         def choose(_event: object = None) -> str:
             selection = listbox.curselection()
             if selection:
-                self.choose_list_channel(selection[0])
+                self.choose_list_channel(self.channel_list_indices[selection[0]])
             return "break"
 
         # Inputs: event.
         # Returns: str.
         # Purpose: Apply the item that the user clicked.
         def choose_clicked(event: tk.Event) -> str:
-            self.choose_list_channel(listbox.nearest(event.y))
+            row = listbox.nearest(event.y)
+            if 0 <= row < len(self.channel_list_indices):
+                self.choose_list_channel(self.channel_list_indices[row])
             return "break"
 
         # Inputs: _event.
@@ -5091,7 +5150,7 @@ class MvTTV:
             self.close_channel_list()
             return "break"
 
-        listbox.bind("<Up>", lambda _event: move(-1))
+        listbox.bind("<Up>", move_up_from_first)
         listbox.bind("<Down>", lambda _event: move(1))
         listbox.bind("<Return>", choose)
         listbox.bind("<KP_Enter>", choose)
@@ -5102,10 +5161,37 @@ class MvTTV:
         if key:
             sequence = key if key.startswith("<") else f"<{key}>"
             listbox.bind(sequence, close)
+            search.bind(sequence, close)
             if key.lower() == "control-l":
                 listbox.bind("<Control-L>", close)
+                search.bind("<Control-L>", close)
         self._sync_list_selection()
-        listbox.focus_set()
+        search.bind("<KeyRelease>", schedule_search)
+        search.bind("<Return>", choose)
+        search.bind("<Down>", move_down_from_search)
+        search.bind("<Escape>", close)
+        search.focus_set()
+
+    # Refresh the visible channel rows using the current deferred search text.
+    def _apply_channel_search(self) -> None:
+        self.channel_search_after_id = None
+        if self.channel_listbox is None:
+            return
+        query = self.channel_search_var.get().casefold().strip()
+        self.channel_list_indices = [
+            index for index, channel in enumerate(self.channels)
+            if not query or query in channel.name.casefold()
+        ]
+        self._render_channel_list()
+
+    def _render_channel_list(self) -> None:
+        listbox = self.channel_listbox
+        if listbox is None:
+            return
+        listbox.delete(0, "end")
+        for index in self.channel_list_indices:
+            listbox.insert("end", f" {index + 1}  {self.channels[index].name}")
+        self._sync_list_selection()
 
     # Inputs: none.
     # Returns: None.
@@ -5113,12 +5199,18 @@ class MvTTV:
     def close_channel_list(self) -> None:
         if self.list_frame is None:
             return
+        if self.channel_search_after_id is not None:
+            self.root.after_cancel(self.channel_search_after_id)
+            self.channel_search_after_id = None
+        self.channel_search_var.set("")
         try:
             self.list_frame.destroy()
         except tk.TclError:
             pass
         self.list_frame = None
         self.channel_listbox = None
+        self.channel_search_entry = None
+        self.channel_list_indices = []
         self.root.focus_set()
 
     # Highlight the running channel in the open list.
@@ -5127,12 +5219,16 @@ class MvTTV:
     # Purpose: Highlight the channel that is currently playing.
     def _sync_list_selection(self) -> None:
         listbox = self.channel_listbox
-        if listbox is None or not (0 <= self.channel_index < len(self.channels)):
+        if listbox is None:
             return
         listbox.selection_clear(0, "end")
-        listbox.selection_set(self.channel_index)
-        listbox.activate(self.channel_index)
-        listbox.see(self.channel_index)
+        try:
+            row = self.channel_list_indices.index(self.channel_index)
+        except ValueError:
+            return
+        listbox.selection_set(row)
+        listbox.activate(row)
+        listbox.see(row)
 
     # Inputs: index.
     # Returns: None.
