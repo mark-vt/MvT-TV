@@ -1,0 +1,1761 @@
+#EXTM3U
+#EXTINF:-1 tvg-chno="1" channel-number="1" tvg-name="Das Erste HD",Das Erste HD
+#EXTVLCOPT:http-title=Das Erste HD
+rtsp://192.168.0.36:554/?src=1&freq=11494&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5100,5101,5102,5103,5106,5107
+
+#EXTINF:-1 tvg-chno="2" channel-number="2" tvg-name="ZDF HD",ZDF HD
+#EXTVLCOPT:http-title=ZDF HD
+rtsp://192.168.0.36:554/?src=1&freq=11362&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,6100,6110,6120,6121,6122,6123
+
+#EXTINF:-1 tvg-chno="3" channel-number="3" tvg-name="arte HD",arte HD
+#EXTVLCOPT:http-title=arte HD
+rtsp://192.168.0.36:554/?src=1&freq=11494&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5110,5111,5112,5113,5116,5117
+
+#EXTINF:-1 tvg-chno="4" channel-number="4" tvg-name="phoenix HD",phoenix HD
+#EXTVLCOPT:http-title=phoenix HD
+rtsp://192.168.0.36:554/?src=1&freq=11582&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5260,5261,5262,5263
+
+#EXTINF:-1 tvg-chno="5" channel-number="5" tvg-name="3sat HD",3sat HD
+#EXTVLCOPT:http-title=3sat HD
+rtsp://192.168.0.36:554/?src=1&freq=11347&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,6500,6510,6520,6521,6522,6523
+
+#EXTINF:-1 tvg-chno="6" channel-number="6" tvg-name="ONE HD",ONE HD
+#EXTVLCOPT:http-title=ONE HD
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5410,5411,5412,5413,5416,5417
+
+#EXTINF:-1 tvg-chno="7" channel-number="7" tvg-name="ARD alpha HD",ARD alpha HD
+#EXTVLCOPT:http-title=ARD alpha HD
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5420,5421,5422,5423,5426,5427
+
+#EXTINF:-1 tvg-chno="8" channel-number="8" tvg-name="ZDFinfo HD",ZDFinfo HD
+#EXTVLCOPT:http-title=ZDFinfo HD
+rtsp://192.168.0.36:554/?src=1&freq=11347&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,6700,6710,6720,6721,6722,6723
+
+#EXTINF:-1 tvg-chno="9" channel-number="9" tvg-name="zdf_neo HD",zdf_neo HD
+#EXTVLCOPT:http-title=zdf_neo HD
+rtsp://192.168.0.36:554/?src=1&freq=11362&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,6300,6310,6320,6321,6322,6323
+
+#EXTINF:-1 tvg-chno="10" channel-number="10" tvg-name="ProSieben",ProSieben
+#EXTVLCOPT:http-title=ProSieben
+rtsp://192.168.0.36:554/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,97,511,512,515
+
+#EXTINF:-1 tvg-chno="11" channel-number="11" tvg-name="sixx",sixx
+#EXTVLCOPT:http-title=sixx
+rtsp://192.168.0.36:554/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,102,1791,1792
+
+#EXTINF:-1 tvg-chno="12" channel-number="12" tvg-name="Pro7 MAXX",Pro7 MAXX
+#EXTVLCOPT:http-title=Pro7 MAXX
+rtsp://192.168.0.36:554/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,101,1535,1536
+
+#EXTINF:-1 tvg-chno="13" channel-number="13" tvg-name="kabel eins",kabel eins
+#EXTVLCOPT:http-title=kabel eins
+rtsp://192.168.0.36:554/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,98,767,768
+
+#EXTINF:-1 tvg-chno="14" channel-number="14" tvg-name="SAT.1",SAT.1
+#EXTVLCOPT:http-title=SAT.1
+rtsp://192.168.0.36:554/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,96,255,256,259
+
+#EXTINF:-1 tvg-chno="15" channel-number="15" tvg-name="SAT.1 Gold",SAT.1 Gold
+#EXTVLCOPT:http-title=SAT.1 Gold
+rtsp://192.168.0.36:554/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,100,1279,1280
+
+#EXTINF:-1 tvg-chno="16" channel-number="16" tvg-name="RTL Television",RTL Television
+#EXTVLCOPT:http-title=RTL Television
+rtsp://192.168.0.36:554/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,44,104,106,163
+
+#EXTINF:-1 tvg-chno="17" channel-number="17" tvg-name="RTLZWEI",RTLZWEI
+#EXTVLCOPT:http-title=RTLZWEI
+rtsp://192.168.0.36:554/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,46,128,166
+
+#EXTINF:-1 tvg-chno="18" channel-number="18" tvg-name="VOX",VOX
+#EXTVLCOPT:http-title=VOX
+rtsp://192.168.0.36:554/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,47,136,167
+
+#EXTINF:-1 tvg-chno="19" channel-number="19" tvg-name="NITRO",NITRO
+#EXTVLCOPT:http-title=NITRO
+rtsp://192.168.0.36:554/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,53,146,173
+
+#EXTINF:-1 tvg-chno="20" channel-number="20" tvg-name="tagesschau24 HD",tagesschau24 HD
+#EXTVLCOPT:http-title=tagesschau24 HD
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5400,5401,5402,5403,5406,5407
+
+#EXTINF:-1 tvg-chno="21" channel-number="21" tvg-name="BR Fernsehen Nord HD",BR Fernsehen Nord HD
+#EXTVLCOPT:http-title=BR Fernsehen Nord HD
+rtsp://192.168.0.36:554/?src=1&freq=11582&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5201,5202,5203,5206,5207,5210
+
+#EXTINF:-1 tvg-chno="22" channel-number="22" tvg-name="NDR FS HH HD",NDR FS HH HD
+#EXTVLCOPT:http-title=NDR FS HH HD
+rtsp://192.168.0.36:554/?src=1&freq=11582&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5221,5222,5223,5226,5227,5240
+
+#EXTINF:-1 tvg-chno="23" channel-number="23" tvg-name="hr-fernsehen HD",hr-fernsehen HD
+#EXTVLCOPT:http-title=hr-fernsehen HD
+rtsp://192.168.0.36:554/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5350,5351,5352,5353,5356,5357
+
+#EXTINF:-1 tvg-chno="24" channel-number="24" tvg-name="WDR HD Köln",WDR HD Köln
+#EXTVLCOPT:http-title=WDR HD Köln
+rtsp://192.168.0.36:554/?src=1&freq=11523&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,100,101,102,103,106,107
+
+#EXTINF:-1 tvg-chno="25" channel-number="25" tvg-name="MDR S-Anhalt HD",MDR S-Anhalt HD
+#EXTVLCOPT:http-title=MDR S-Anhalt HD
+rtsp://192.168.0.36:554/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5330,5331,5332,5333,5336,5337
+
+#EXTINF:-1 tvg-chno="26" channel-number="26" tvg-name="SWR BW HD",SWR BW HD
+#EXTVLCOPT:http-title=SWR BW HD
+rtsp://192.168.0.36:554/?src=1&freq=11494&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5120,5121,5122,5123,5126,5127
+
+#EXTINF:-1 tvg-chno="27" channel-number="27" tvg-name="Radio Bremen HD",Radio Bremen HD
+#EXTVLCOPT:http-title=Radio Bremen HD
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5440,5441,5442,5443,5447
+
+#EXTINF:-1 tvg-chno="28" channel-number="28" tvg-name="rbb Berlin HD",rbb Berlin HD
+#EXTVLCOPT:http-title=rbb Berlin HD
+rtsp://192.168.0.36:554/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5310,5311,5312,5313,5316,5317
+
+#EXTINF:-1 tvg-chno="29" channel-number="29" tvg-name="WELT",WELT
+#EXTVLCOPT:http-title=WELT
+rtsp://192.168.0.36:554/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,99,1023,1024
+
+#EXTINF:-1 tvg-chno="30" channel-number="30" tvg-name="ntv",ntv
+#EXTVLCOPT:http-title=ntv
+rtsp://192.168.0.36:554/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,48,73,77,169
+
+#EXTINF:-1 tvg-chno="31" channel-number="31" tvg-name="DF1 HD",DF1 HD
+#EXTVLCOPT:http-title=DF1 HD
+rtsp://192.168.0.36:554/?src=1&freq=11303&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,110,4920,4921,4922
+
+#EXTINF:-1 tvg-chno="32" channel-number="32" tvg-name="kabel eins Doku",kabel eins Doku
+#EXTVLCOPT:http-title=kabel eins Doku
+rtsp://192.168.0.36:554/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,105,2559,2560
+
+#EXTINF:-1 tvg-chno="33" channel-number="33" tvg-name="TELE 5",TELE 5
+#EXTVLCOPT:http-title=TELE 5
+rtsp://192.168.0.36:554/?src=1&freq=12480&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,99,1535,1536
+
+#EXTINF:-1 tvg-chno="34" channel-number="34" tvg-name="DMAX",DMAX
+#EXTVLCOPT:http-title=DMAX
+rtsp://192.168.0.36:554/?src=1&freq=12480&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,108,3327,3328
+
+#EXTINF:-1 tvg-chno="35" channel-number="35" tvg-name="N24 DOKU",N24 DOKU
+#EXTVLCOPT:http-title=N24 DOKU
+rtsp://192.168.0.36:554/?src=1&freq=12460&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,97,511,512
+
+#EXTINF:-1 tvg-chno="36" channel-number="36" tvg-name="SUPER RTL",SUPER RTL
+#EXTVLCOPT:http-title=SUPER RTL
+rtsp://192.168.0.36:554/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,45,120,165
+
+#EXTINF:-1 tvg-chno="37" channel-number="37" tvg-name="Comedy Central",Comedy Central
+#EXTVLCOPT:http-title=Comedy Central
+rtsp://192.168.0.36:554/?src=1&freq=11973&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,416,4061,4062,4063
+
+#EXTINF:-1 tvg-chno="38" channel-number="38" tvg-name="KiKA HD",KiKA HD
+#EXTVLCOPT:http-title=KiKA HD
+rtsp://192.168.0.36:554/?src=1&freq=11347&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,6600,6610,6620,6621,6622,6623
+
+#EXTINF:-1 tvg-chno="39" channel-number="39" tvg-name="Disney Channel",Disney Channel
+#EXTVLCOPT:http-title=Disney Channel
+rtsp://192.168.0.36:554/?src=1&freq=12460&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,115,2047,2048,2051
+
+#EXTINF:-1 tvg-chno="40" channel-number="40" tvg-name="AnixeHD Serie",AnixeHD Serie
+#EXTVLCOPT:http-title=AnixeHD Serie
+rtsp://192.168.0.36:554/?src=1&freq=10773&pol=h&ro=0.20&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=34&pids=0,17,18,96,255,259
+
+#EXTINF:-1 tvg-chno="41" channel-number="41" tvg-name="SPORT1",SPORT1
+#EXTVLCOPT:http-title=SPORT1
+rtsp://192.168.0.36:554/?src=1&freq=12480&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,103,1023,1024
+
+#EXTINF:-1 tvg-chno="42" channel-number="42" tvg-name="DMF",DMF
+#EXTVLCOPT:http-title=DMF
+rtsp://192.168.0.36:554/?src=1&freq=12460&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,99,767,768
+
+#EXTINF:-1 tvg-chno="43" channel-number="43" tvg-name="sixx AUSTRIA",sixx AUSTRIA
+#EXTVLCOPT:http-title=sixx AUSTRIA
+rtsp://192.168.0.36:554/?src=1&freq=11671&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,105,2559,2560
+
+#EXTINF:-1 tvg-chno="44" channel-number="44" tvg-name="TOGGO plus",TOGGO plus
+#EXTVLCOPT:http-title=TOGGO plus
+rtsp://192.168.0.36:554/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,58,301,303
+
+#EXTINF:-1 tvg-chno="45" channel-number="45" tvg-name="Nick/Comedy Central+1",Nick/Comedy Central+1
+#EXTVLCOPT:http-title=Nick/Comedy Central+1
+rtsp://192.168.0.36:554/?src=1&freq=11973&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,420,4101,4102,4103
+
+#EXTINF:-1 tvg-chno="46" channel-number="46" tvg-name="TLC",TLC
+#EXTVLCOPT:http-title=TLC
+rtsp://192.168.0.36:554/?src=1&freq=12460&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,103,1535,1536
+
+#EXTINF:-1 tvg-chno="47" channel-number="47" tvg-name="REGIO TV",REGIO TV
+#EXTVLCOPT:http-title=REGIO TV
+rtsp://192.168.0.36:554/?src=1&freq=12480&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,107,2047,2048
+
+#EXTINF:-1 tvg-chno="48" channel-number="48" tvg-name="SERIEN+",SERIEN+
+#EXTVLCOPT:http-title=SERIEN+
+rtsp://192.168.0.36:554/?src=1&freq=12110&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,108,3327,3328
+
+#EXTINF:-1 tvg-chno="49" channel-number="49" tvg-name="VOXup",VOXup
+#EXTVLCOPT:http-title=VOXup
+rtsp://192.168.0.36:554/?src=1&freq=12226&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,600,601,602
+
+#EXTINF:-1 tvg-chno="50" channel-number="50" tvg-name="DOKUSAT",DOKUSAT
+#EXTVLCOPT:http-title=DOKUSAT
+rtsp://192.168.0.36:554/?src=1&freq=11836&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,101,102,1000
+
+#EXTINF:-1 tvg-chno="51" channel-number="51" tvg-name="EURONEWS GERMAN SD PAL",EURONEWS GERMAN SD PAL
+#EXTVLCOPT:http-title=EURONEWS GERMAN SD PAL
+rtsp://192.168.0.36:554/?src=1&freq=11376&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,1108,2321,2331
+
+#EXTINF:-1 tvg-chno="52" channel-number="52" tvg-name="RTLup",RTLup
+#EXTVLCOPT:http-title=RTLup
+rtsp://192.168.0.36:554/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,41,137,168
+
+#EXTINF:-1 tvg-chno="53" channel-number="53" tvg-name="Franken Plus HD",Franken Plus HD
+#EXTVLCOPT:http-title=Franken Plus HD
+rtsp://192.168.0.36:554/?src=1&freq=11553&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,110,1100,1102
+
+#EXTINF:-1 tvg-chno="54" channel-number="54" tvg-name="ORF 2 EUROPE HD",ORF 2 EUROPE HD
+#EXTVLCOPT:http-title=ORF 2 EUROPE HD
+rtsp://192.168.0.36:554/?src=1&freq=11273&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,310,3100,3101
+
+#EXTINF:-1 tvg-chno="55" channel-number="55" tvg-name="Anixe+",Anixe+
+#EXTVLCOPT:http-title=Anixe+
+rtsp://192.168.0.36:554/?src=1&freq=12460&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,107,3311,3312
+
+#EXTINF:-1 tvg-chno="56" channel-number="56" tvg-name="Eurosport 1 Deutschland",Eurosport 1 Deutschland
+#EXTVLCOPT:http-title=Eurosport 1 Deutschland
+rtsp://192.168.0.36:554/?src=1&freq=12226&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,101,103,280
+
+#EXTINF:-1 tvg-chno="57" channel-number="57" tvg-name="1LIVE",1LIVE
+#EXTVLCOPT:http-title=1LIVE
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,600,601
+
+#EXTINF:-1 tvg-chno="58" channel-number="58" tvg-name="Crime Time",Crime Time
+#EXTVLCOPT:http-title=Crime Time
+rtsp://192.168.0.36:554/?src=1&freq=12110&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,107,3071,3072
+
+#EXTINF:-1 tvg-chno="59" channel-number="59" tvg-name="a.tv HD",a.tv HD
+#EXTVLCOPT:http-title=a.tv HD
+rtsp://192.168.0.36:554/?src=1&freq=11553&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,101,1010,1012
+
+#EXTINF:-1 tvg-chno="60" channel-number="60" tvg-name="DELUXE MUSIC",DELUXE MUSIC
+#EXTVLCOPT:http-title=DELUXE MUSIC
+rtsp://192.168.0.36:554/?src=1&freq=12148&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,99,3327,3328
+
+#EXTINF:-1 tvg-chno="61" channel-number="61" tvg-name="Baden TV",Baden TV
+#EXTVLCOPT:http-title=Baden TV
+rtsp://192.168.0.36:554/?src=1&freq=12480&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,109,2815,2816
+
+#EXTINF:-1 tvg-chno="62" channel-number="62" tvg-name="NIEDERBAYERN TV HD",NIEDERBAYERN TV HD
+#EXTVLCOPT:http-title=NIEDERBAYERN TV HD
+rtsp://192.168.0.36:554/?src=1&freq=11553&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,108,1080,1082
+
+#EXTINF:-1 tvg-chno="63" channel-number="63" tvg-name="OTVA HD",OTVA HD
+#EXTVLCOPT:http-title=OTVA HD
+rtsp://192.168.0.36:554/?src=1&freq=11553&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,109,1090,1092
+
+#EXTINF:-1 tvg-chno="64" channel-number="64" tvg-name="a.tv HD .",a.tv HD .
+#EXTVLCOPT:http-title=a.tv HD .
+rtsp://192.168.0.36:554/?src=1&freq=11553&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,104,1010,1012
+
+#EXTINF:-1 tvg-chno="65" channel-number="65" tvg-name="tv.ingolstadt HD",tv.ingolstadt HD
+#EXTVLCOPT:http-title=tv.ingolstadt HD
+rtsp://192.168.0.36:554/?src=1&freq=11553&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,105,1050,1052
+
+#EXTINF:-1 tvg-chno="66" channel-number="66" tvg-name="DYN Sport Mix",DYN Sport Mix
+#EXTVLCOPT:http-title=DYN Sport Mix
+rtsp://192.168.0.36:554/?src=1&freq=12110&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,99,1023,1024
+
+#EXTINF:-1 tvg-chno="67" channel-number="67" tvg-name="mþnchen.tv HD",mþnchen.tv HD
+#EXTVLCOPT:http-title=mþnchen.tv HD
+rtsp://192.168.0.36:554/?src=1&freq=11553&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,102,1020,1022
+
+#EXTINF:-1 tvg-chno="68" channel-number="68" tvg-name="R9 Oesterreich HD",R9 Oesterreich HD
+#EXTVLCOPT:http-title=R9 Oesterreich HD
+rtsp://192.168.0.36:554/?src=1&freq=11273&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,312,3120,3121
+
+#EXTINF:-1 tvg-chno="69" channel-number="69" tvg-name="SACHSEN EINS",SACHSEN EINS
+#EXTVLCOPT:http-title=SACHSEN EINS
+rtsp://192.168.0.36:554/?src=1&freq=11068&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,37,2001,2002,2010
+
+#EXTINF:-1 tvg-chno="70" channel-number="70" tvg-name="DFB.TV FREE",DFB.TV FREE
+#EXTVLCOPT:http-title=DFB.TV FREE
+rtsp://192.168.0.36:554/?src=1&freq=11954&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,106,1061,1062
+
+#EXTINF:-1 tvg-chno="71" channel-number="71" tvg-name="One Terra",One Terra
+#EXTVLCOPT:http-title=One Terra
+rtsp://192.168.0.36:554/?src=1&freq=12110&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,98,767,768
+
+#EXTINF:-1 tvg-chno="72" channel-number="72" tvg-name="Aristo TV",Aristo TV
+#EXTVLCOPT:http-title=Aristo TV
+rtsp://192.168.0.36:554/?src=1&freq=11273&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,311,3110,3111
+
+#EXTINF:-1 tvg-chno="73" channel-number="73" tvg-name="oe24.TV HD",oe24.TV HD
+#EXTVLCOPT:http-title=oe24.TV HD
+rtsp://192.168.0.36:554/?src=1&freq=11273&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,314,3140,3141
+
+#EXTINF:-1 tvg-chno="74" channel-number="74" tvg-name="TV1 OOE NEU",TV1 OOE NEU
+#EXTVLCOPT:http-title=TV1 OOE NEU
+rtsp://192.168.0.36:554/?src=1&freq=11273&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,315,3150,3151
+
+#EXTINF:-1 tvg-chno="75" channel-number="75" tvg-name="Schlager Deluxe",Schlager Deluxe
+#EXTVLCOPT:http-title=Schlager Deluxe
+rtsp://192.168.0.36:554/?src=1&freq=10921&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=78&pids=0,17,18,97,511,512
+
+#EXTINF:-1 tvg-chno="76" channel-number="76" tvg-name="Xplore",Xplore
+#EXTVLCOPT:http-title=Xplore
+rtsp://192.168.0.36:554/?src=1&freq=12110&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,96,255,256
+
+#EXTINF:-1 tvg-chno="77" channel-number="77" tvg-name="krone.tv",krone.tv
+#EXTVLCOPT:http-title=krone.tv
+rtsp://192.168.0.36:554/?src=1&freq=11273&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,313,3130,3131
+
+#EXTINF:-1 tvg-chno="78" channel-number="78" tvg-name="L-TV",L-TV
+#EXTVLCOPT:http-title=L-TV
+rtsp://192.168.0.36:554/?src=1&freq=12663&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,1213,2130,2131
+
+#EXTINF:-1 tvg-chno="79" channel-number="79" tvg-name="Deluxe Rap",Deluxe Rap
+#EXTVLCOPT:http-title=Deluxe Rap
+rtsp://192.168.0.36:554/?src=1&freq=12110&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,100,1279,1280
+
+#EXTINF:-1 tvg-chno="80" channel-number="80" tvg-name="volksmusik.tv",volksmusik.tv
+#EXTVLCOPT:http-title=volksmusik.tv
+rtsp://192.168.0.36:554/?src=1&freq=11836&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,48,201,202
+
+#EXTINF:-1 tvg-chno="81" channel-number="81" tvg-name="Höhenrausch",Höhenrausch
+#EXTVLCOPT:http-title=Höhenrausch
+rtsp://192.168.0.36:554/?src=1&freq=12110&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,106,2815,2816
+
+#EXTINF:-1 tvg-chno="82" channel-number="82" tvg-name="LT1-OOE",LT1-OOE
+#EXTVLCOPT:http-title=LT1-OOE
+rtsp://192.168.0.36:554/?src=1&freq=12663&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,1040,1041,1104
+
+#EXTINF:-1 tvg-chno="83" channel-number="83" tvg-name="MTV",MTV
+#EXTVLCOPT:http-title=MTV
+rtsp://192.168.0.36:554/?src=1&freq=11973&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,411,4081,4082,4083
+
+#EXTINF:-1 tvg-chno="84" channel-number="84" tvg-name="Just Fishing",Just Fishing
+#EXTVLCOPT:http-title=Just Fishing
+rtsp://192.168.0.36:554/?src=1&freq=12110&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,1544,2303,2304
+
+#EXTINF:-1 tvg-chno="85" channel-number="85" tvg-name="Just Cooking",Just Cooking
+#EXTVLCOPT:http-title=Just Cooking
+rtsp://192.168.0.36:554/?src=1&freq=12110&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,103,2047,2048
+
+#EXTINF:-1 tvg-chno="86" channel-number="86" tvg-name="Deluxe Dance by Kontor",Deluxe Dance by Kontor
+#EXTVLCOPT:http-title=Deluxe Dance by Kontor
+rtsp://192.168.0.36:554/?src=1&freq=12110&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,101,1535,1536
+
+#EXTINF:-1 tvg-chno="99" channel-number="99" tvg-name="HGTV HD",HGTV HD
+#EXTVLCOPT:http-title=HGTV HD
+rtsp://192.168.0.36:554/?src=1&freq=12344&pol=h&ro=0.35&msys=dvbs2&mtype=qpsk&plts=on&sr=27500&fec=910&pids=0,17,18,104,1535,1539
+
+#EXTINF:-1 tvg-chno="100" channel-number="100" tvg-name="CNBC HD",CNBC HD
+#EXTVLCOPT:http-title=CNBC HD
+rtsp://192.168.0.36:554/?src=1&freq=11376&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,1091,1092,1700
+
+#EXTINF:-1 tvg-chno="101" channel-number="101" tvg-name="Sky News Intl",Sky News Intl
+#EXTVLCOPT:http-title=Sky News Intl
+rtsp://192.168.0.36:554/?src=1&freq=12604&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,1290,2290,7290
+
+#EXTINF:-1 tvg-chno="102" channel-number="102" tvg-name="BBC News",BBC News
+#EXTVLCOPT:http-title=BBC News
+rtsp://192.168.0.36:554/?src=1&freq=11229&pol=v&ro=0.20&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,212,2091,2092
+
+#EXTINF:-1 tvg-chno="103" channel-number="103" tvg-name="Bloomberg Europe TV",Bloomberg Europe TV
+#EXTVLCOPT:http-title=Bloomberg Europe TV
+rtsp://192.168.0.36:554/?src=1&freq=12604&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,48,265,3622
+
+#EXTINF:-1 tvg-chno="104" channel-number="104" tvg-name="CNEWS",CNEWS
+#EXTVLCOPT:http-title=CNEWS
+rtsp://192.168.0.36:554/?src=1&freq=12207&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1400,1410,1421,1423
+
+#EXTINF:-1 tvg-chno="105" channel-number="105" tvg-name="Al Jazeera English HD",Al Jazeera English HD
+#EXTVLCOPT:http-title=Al Jazeera English HD
+rtsp://192.168.0.36:554/?src=1&freq=11229&pol=v&ro=0.20&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,3100,3101,3102,3103
+
+#EXTINF:-1 tvg-chno="106" channel-number="106" tvg-name="CNN Int.",CNN Int.
+#EXTVLCOPT:http-title=CNN Int.
+rtsp://192.168.0.36:554/?src=1&freq=11739&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,95,96,400
+
+#EXTINF:-1 tvg-chno="107" channel-number="107" tvg-name="CGTN HD",CGTN HD
+#EXTVLCOPT:http-title=CGTN HD
+rtsp://192.168.0.36:554/?src=1&freq=11778&pol=v&ro=0.25&msys=dvbs2&mtype=qpsk&plts=on&sr=29500&fec=910&pids=0,17,18,7110,7111,7112
+
+#EXTINF:-1 tvg-chno="108" channel-number="108" tvg-name="TRT WORLD HD",TRT WORLD HD
+#EXTVLCOPT:http-title=TRT WORLD HD
+rtsp://192.168.0.36:554/?src=1&freq=11538&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,618,638,668
+
+#EXTINF:-1 tvg-chno="109" channel-number="109" tvg-name="CNN Int.",CNN Int.
+#EXTVLCOPT:http-title=CNN Int.
+rtsp://192.168.0.36:554/?src=1&freq=11778&pol=v&ro=0.25&msys=dvbs2&mtype=qpsk&plts=on&sr=29500&fec=910&pids=0,17,18,48,95,400
+
+#EXTINF:-1 tvg-chno="200" channel-number="200" tvg-name="Telesur English",Telesur English
+#EXTVLCOPT:http-title=Telesur English
+rtsp://192.168.0.36:554/?src=1&freq=11376&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,1052,1093,1193
+
+#EXTINF:-1 tvg-chno="201" channel-number="201" tvg-name="DW English HD",DW English HD
+#EXTVLCOPT:http-title=DW English HD
+rtsp://192.168.0.36:554/?src=1&freq=11778&pol=v&ro=0.25&msys=dvbs2&mtype=qpsk&plts=on&sr=29500&fec=910&pids=0,17,18,1100,1110,1120
+
+#EXTINF:-1 tvg-chno="202" channel-number="202" tvg-name="NHK WORLD-JPN",NHK WORLD-JPN
+#EXTVLCOPT:http-title=NHK WORLD-JPN
+rtsp://192.168.0.36:554/?src=1&freq=11229&pol=v&ro=0.20&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,1120,1760,5071
+
+#EXTINF:-1 tvg-chno="204" channel-number="204" tvg-name="ARIRANG HD",ARIRANG HD
+#EXTVLCOPT:http-title=ARIRANG HD
+rtsp://192.168.0.36:554/?src=1&freq=11538&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,601,621,6901
+
+#EXTINF:-1 tvg-chno="205" channel-number="205" tvg-name="CGTN HD",CGTN HD
+#EXTVLCOPT:http-title=CGTN HD
+rtsp://192.168.0.36:554/?src=1&freq=11376&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,1011,1012,1600
+
+#EXTINF:-1 tvg-chno="206" channel-number="206" tvg-name="CGTN DOCUMENTARY HD",CGTN DOCUMENTARY HD
+#EXTVLCOPT:http-title=CGTN DOCUMENTARY HD
+rtsp://192.168.0.36:554/?src=1&freq=11778&pol=v&ro=0.25&msys=dvbs2&mtype=qpsk&plts=on&sr=29500&fec=910&pids=0,17,18,7120,7121,7122
+
+#EXTINF:-1 tvg-chno="207" channel-number="207" tvg-name="CGTN Documentary",CGTN Documentary
+#EXTVLCOPT:http-title=CGTN Documentary
+rtsp://192.168.0.36:554/?src=1&freq=11376&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,1021,1022,1500
+
+#EXTINF:-1 tvg-chno="208" channel-number="208" tvg-name="Anewz",Anewz
+#EXTVLCOPT:http-title=Anewz
+rtsp://192.168.0.36:554/?src=1&freq=11068&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,480,1210,1211
+
+#EXTINF:-1 tvg-chno="300" channel-number="300" tvg-name="TV5 MONDE",TV5 MONDE
+#EXTVLCOPT:http-title=TV5 MONDE
+rtsp://192.168.0.36:554/?src=1&freq=11934&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,200,210,221
+
+#EXTINF:-1 tvg-chno="301" channel-number="301" tvg-name="France 24 (en Anglais)",France 24 (en Anglais)
+#EXTVLCOPT:http-title=France 24 (en Anglais)
+rtsp://192.168.0.36:554/?src=1&freq=11538&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,202,606,626,646
+
+#EXTINF:-1 tvg-chno="302" channel-number="302" tvg-name="CANAL+",CANAL+
+#EXTVLCOPT:http-title=CANAL+
+rtsp://192.168.0.36:554/?src=1&freq=11934&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,900,910,921,922
+
+#EXTINF:-1 tvg-chno="303" channel-number="303" tvg-name="CGTN FRANCAIS HD",CGTN FRANCAIS HD
+#EXTVLCOPT:http-title=CGTN FRANCAIS HD
+rtsp://192.168.0.36:554/?src=1&freq=11778&pol=v&ro=0.25&msys=dvbs2&mtype=qpsk&plts=on&sr=29500&fec=910&pids=0,17,18,7130,7131,7132
+
+#EXTINF:-1 tvg-chno="304" channel-number="304" tvg-name="LCP",LCP
+#EXTVLCOPT:http-title=LCP
+rtsp://192.168.0.36:554/?src=1&freq=12168&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,800,810,821
+
+#EXTINF:-1 tvg-chno="305" channel-number="305" tvg-name="A LA UNE",A LA UNE
+#EXTVLCOPT:http-title=A LA UNE
+rtsp://192.168.0.36:554/?src=1&freq=12402&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,200,210,221
+
+#EXTINF:-1 tvg-chno="306" channel-number="306" tvg-name="CGTN Francais",CGTN Francais
+#EXTVLCOPT:http-title=CGTN Francais
+rtsp://192.168.0.36:554/?src=1&freq=11376&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,1031,1032,1400
+
+#EXTINF:-1 tvg-chno="307" channel-number="307" tvg-name="France 24 (en Francais)",France 24 (en Francais)
+#EXTVLCOPT:http-title=France 24 (en Francais)
+rtsp://192.168.0.36:554/?src=1&freq=11538&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,201,605,625,645
+
+#EXTINF:-1 tvg-chno="308" channel-number="308" tvg-name="TVMonaco",TVMonaco
+#EXTVLCOPT:http-title=TVMonaco
+rtsp://192.168.0.36:554/?src=1&freq=11778&pol=v&ro=0.25&msys=dvbs2&mtype=qpsk&plts=on&sr=29500&fec=910&pids=0,17,18,100,110,121,122,123
+
+#EXTINF:-1 tvg-chno="309" channel-number="309" tvg-name="EUROPE 1 TV",EUROPE 1 TV
+#EXTVLCOPT:http-title=EUROPE 1 TV
+rtsp://192.168.0.36:554/?src=1&freq=12402&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1600,1610,1621
+
+#EXTINF:-1 tvg-chno="310" channel-number="310" tvg-name="Canal Algerie",Canal Algerie
+#EXTVLCOPT:http-title=Canal Algerie
+rtsp://192.168.0.36:554/?src=1&freq=12552&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,200,515,680
+
+#EXTINF:-1 tvg-chno="311" channel-number="311" tvg-name="TV5 MONDE EUROPE HD",TV5 MONDE EUROPE HD
+#EXTVLCOPT:http-title=TV5 MONDE EUROPE HD
+rtsp://192.168.0.36:554/?src=1&freq=11538&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,615,635,665
+
+#EXTINF:-1 tvg-chno="312" channel-number="312" tvg-name="TOUS VOS PROGRAMMES",TOUS VOS PROGRAMMES
+#EXTVLCOPT:http-title=TOUS VOS PROGRAMMES
+rtsp://192.168.0.36:554/?src=1&freq=12363&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,1303,2047,8191
+
+#EXTINF:-1 tvg-chno="313" channel-number="313" tvg-name="RMC Life",RMC Life
+#EXTVLCOPT:http-title=RMC Life
+rtsp://192.168.0.36:554/?src=1&freq=12552&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,5300,5301,5302,5303,5304
+
+#EXTINF:-1 tvg-chno="314" channel-number="314" tvg-name="RMC Life",RMC Life
+#EXTVLCOPT:http-title=RMC Life
+rtsp://192.168.0.36:554/?src=1&freq=12552&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,5301,5302,5303,5304,5400
+
+#EXTINF:-1 tvg-chno="500" channel-number="500" tvg-name="Telesur HD",Telesur HD
+#EXTVLCOPT:http-title=Telesur HD
+rtsp://192.168.0.36:554/?src=1&freq=11068&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,32,34,36
+
+#EXTINF:-1 tvg-chno="501" channel-number="501" tvg-name="Daystar",Daystar
+#EXTVLCOPT:http-title=Daystar
+rtsp://192.168.0.36:554/?src=1&freq=11376&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,1647,1648,1649
+
+#EXTINF:-1 tvg-chno="502" channel-number="502" tvg-name="Cubavision Internacional",Cubavision Internacional
+#EXTVLCOPT:http-title=Cubavision Internacional
+rtsp://192.168.0.36:554/?src=1&freq=11778&pol=v&ro=0.25&msys=dvbs2&mtype=qpsk&plts=on&sr=29500&fec=910&pids=0,17,18,708,728,758
+
+#EXTINF:-1 tvg-chno="503" channel-number="503" tvg-name="ARAGON TV INT",ARAGON TV INT
+#EXTVLCOPT:http-title=ARAGON TV INT
+rtsp://192.168.0.36:554/?src=1&freq=11318&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,128,172,1032,5172
+
+#EXTINF:-1 tvg-chno="504" channel-number="504" tvg-name="CANAL SUR A.",CANAL SUR A.
+#EXTVLCOPT:http-title=CANAL SUR A.
+rtsp://192.168.0.36:554/?src=1&freq=11156&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,104,166,1029,5166
+
+#EXTINF:-1 tvg-chno="600" channel-number="600" tvg-name="TV Trwam",TV Trwam
+#EXTVLCOPT:http-title=TV Trwam
+rtsp://192.168.0.36:554/?src=1&freq=11288&pol=v&ro=0.20&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,33,36,38,8020
+
+#EXTINF:-1 tvg-chno="601" channel-number="601" tvg-name="Algerie 3",Algerie 3
+#EXTVLCOPT:http-title=Algerie 3
+rtsp://192.168.0.36:554/?src=1&freq=12552&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,300,514,670
+
+#EXTINF:-1 tvg-chno="602" channel-number="602" tvg-name="BVN",BVN
+#EXTVLCOPT:http-title=BVN
+rtsp://192.168.0.36:554/?src=1&freq=12515&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,101,501,2201
+
+#EXTINF:-1 tvg-chno="700" channel-number="700" tvg-name="TLC Austria",TLC Austria
+#EXTVLCOPT:http-title=TLC Austria
+rtsp://192.168.0.36:554/?src=1&freq=12148&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,105,511,512
+
+#EXTINF:-1 tvg-chno="701" channel-number="701" tvg-name="DMAX Austria",DMAX Austria
+#EXTVLCOPT:http-title=DMAX Austria
+rtsp://192.168.0.36:554/?src=1&freq=12148&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,115,3583,3584
+
+#EXTINF:-1 tvg-chno="702" channel-number="702" tvg-name="SAT.1 Gold Österreich",SAT.1 Gold Österreich
+#EXTVLCOPT:http-title=SAT.1 Gold Österreich
+rtsp://192.168.0.36:554/?src=1&freq=11671&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,106,2815,2816
+
+#EXTINF:-1 tvg-chno="703" channel-number="703" tvg-name="Pro7 MAXX Austria",Pro7 MAXX Austria
+#EXTVLCOPT:http-title=Pro7 MAXX Austria
+rtsp://192.168.0.36:554/?src=1&freq=11671&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,107,3071,3072
+
+#EXTINF:-1 tvg-chno="704" channel-number="704" tvg-name="kabel1 Doku austria",kabel1 Doku austria
+#EXTVLCOPT:http-title=kabel1 Doku austria
+rtsp://192.168.0.36:554/?src=1&freq=11671&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,108,3327,3328
+
+#EXTINF:-1 tvg-chno="705" channel-number="705" tvg-name="ntv Austria",ntv Austria
+#EXTVLCOPT:http-title=ntv Austria
+rtsp://192.168.0.36:554/?src=1&freq=11082&pol=h&ro=0.20&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=34&pids=0,17,18,56,700,711,712
+
+#EXTINF:-1 tvg-chno="706" channel-number="706" tvg-name="NITRO Austria",NITRO Austria
+#EXTVLCOPT:http-title=NITRO Austria
+rtsp://192.168.0.36:554/?src=1&freq=12663&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,1020,1021,1102
+
+#EXTINF:-1 tvg-chno="707" channel-number="707" tvg-name="RTLup Austria",RTLup Austria
+#EXTVLCOPT:http-title=RTLup Austria
+rtsp://192.168.0.36:554/?src=1&freq=11244&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,229,2290,2291
+
+#EXTINF:-1 tvg-chno="708" channel-number="708" tvg-name="Kabel 1 Austria",Kabel 1 Austria
+#EXTVLCOPT:http-title=Kabel 1 Austria
+rtsp://192.168.0.36:554/?src=1&freq=12051&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,166,167,1027
+
+#EXTINF:-1 tvg-chno="709" channel-number="709" tvg-name="SAT.1 A",SAT.1 A
+#EXTVLCOPT:http-title=SAT.1 A
+rtsp://192.168.0.36:554/?src=1&freq=12051&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,800,801,803,1028
+
+#EXTINF:-1 tvg-chno="710" channel-number="710" tvg-name="RTL Austria",RTL Austria
+#EXTVLCOPT:http-title=RTL Austria
+rtsp://192.168.0.36:554/?src=1&freq=12226&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,200,201,202
+
+#EXTINF:-1 tvg-chno="711" channel-number="711" tvg-name="VOX Austria",VOX Austria
+#EXTVLCOPT:http-title=VOX Austria
+rtsp://192.168.0.36:554/?src=1&freq=12226&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,300,301,302
+
+#EXTINF:-1 tvg-chno="712" channel-number="712" tvg-name="RTLZWEI Austria",RTLZWEI Austria
+#EXTVLCOPT:http-title=RTLZWEI Austria
+rtsp://192.168.0.36:554/?src=1&freq=12226&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,400,401,402
+
+#EXTINF:-1 tvg-chno="713" channel-number="713" tvg-name="SUPER RTL A",SUPER RTL A
+#EXTVLCOPT:http-title=SUPER RTL A
+rtsp://192.168.0.36:554/?src=1&freq=12226&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,500,501,502
+
+#EXTINF:-1 tvg-chno="750" channel-number="750" tvg-name=".",.
+#EXTVLCOPT:http-title=.
+rtsp://192.168.0.36:554/?src=1&freq=10964&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,97,511,515
+
+#EXTINF:-1 tvg-chno="751" channel-number="751" tvg-name=".",.
+#EXTVLCOPT:http-title=.
+rtsp://192.168.0.36:554/?src=1&freq=12148&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,107,1791,1792
+
+#EXTINF:-1 tvg-chno="800" channel-number="800" tvg-name="SWR RLP HD",SWR RLP HD
+#EXTVLCOPT:http-title=SWR RLP HD
+rtsp://192.168.0.36:554/?src=1&freq=11494&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5121,5122,5123,5126,5127,5130
+
+#EXTINF:-1 tvg-chno="801" channel-number="801" tvg-name="BR Fernsehen Süd HD",BR Fernsehen Süd HD
+#EXTVLCOPT:http-title=BR Fernsehen Süd HD
+rtsp://192.168.0.36:554/?src=1&freq=11582&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5200,5201,5202,5203,5206,5207
+
+#EXTINF:-1 tvg-chno="802" channel-number="802" tvg-name="NDR FS NDS HD",NDR FS NDS HD
+#EXTVLCOPT:http-title=NDR FS NDS HD
+rtsp://192.168.0.36:554/?src=1&freq=11582&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5220,5221,5222,5223,5226,5227
+
+#EXTINF:-1 tvg-chno="803" channel-number="803" tvg-name="NDR FS MV HD",NDR FS MV HD
+#EXTVLCOPT:http-title=NDR FS MV HD
+rtsp://192.168.0.36:554/?src=1&freq=11582&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5221,5222,5223,5226,5227,5230
+
+#EXTINF:-1 tvg-chno="804" channel-number="804" tvg-name="NDR FS SH HD",NDR FS SH HD
+#EXTVLCOPT:http-title=NDR FS SH HD
+rtsp://192.168.0.36:554/?src=1&freq=11582&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5221,5222,5223,5226,5227,5250
+
+#EXTINF:-1 tvg-chno="805" channel-number="805" tvg-name="rbb Brandenburg HD",rbb Brandenburg HD
+#EXTVLCOPT:http-title=rbb Brandenburg HD
+rtsp://192.168.0.36:554/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5300,5311,5312,5313,5316,5317
+
+#EXTINF:-1 tvg-chno="806" channel-number="806" tvg-name="MDR Sachsen HD",MDR Sachsen HD
+#EXTVLCOPT:http-title=MDR Sachsen HD
+rtsp://192.168.0.36:554/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5320,5331,5332,5333,5336,5337
+
+#EXTINF:-1 tvg-chno="807" channel-number="807" tvg-name="MDR Thüringen HD",MDR Thüringen HD
+#EXTVLCOPT:http-title=MDR Thüringen HD
+rtsp://192.168.0.36:554/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5331,5332,5333,5336,5337,5340
+
+#EXTINF:-1 tvg-chno="808" channel-number="808" tvg-name="SR Fernsehen HD",SR Fernsehen HD
+#EXTVLCOPT:http-title=SR Fernsehen HD
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5430,5431,5432,5433,5436,5437
+
+#EXTINF:-1 tvg-chno="809" channel-number="809" tvg-name="ARD-Test-R",ARD-Test-R
+#EXTVLCOPT:http-title=ARD-Test-R
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5401,5402,5490
+
+#EXTINF:-1 tvg-chno="810" channel-number="810" tvg-name="ARD-Test-1",ARD-Test-1
+#EXTVLCOPT:http-title=ARD-Test-1
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,5401,5402,5406,5407,5412,5491
+
+#EXTINF:-1 tvg-chno="811" channel-number="811" tvg-name="RTL Regional NRW",RTL Regional NRW
+#EXTVLCOPT:http-title=RTL Regional NRW
+rtsp://192.168.0.36:554/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,54,104,163
+
+#EXTINF:-1 tvg-chno="812" channel-number="812" tvg-name="RTL HB NDS",RTL HB NDS
+#EXTVLCOPT:http-title=RTL HB NDS
+rtsp://192.168.0.36:554/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,55,104,163
+
+#EXTINF:-1 tvg-chno="813" channel-number="813" tvg-name="RTL Bayern",RTL Bayern
+#EXTVLCOPT:http-title=RTL Bayern
+rtsp://192.168.0.36:554/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,56,104,163
+
+#EXTINF:-1 tvg-chno="814" channel-number="814" tvg-name="RTL HH SH",RTL HH SH
+#EXTVLCOPT:http-title=RTL HH SH
+rtsp://192.168.0.36:554/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,57,104,163
+
+#EXTINF:-1 tvg-chno="815" channel-number="815" tvg-name="ProSieben Austria",ProSieben Austria
+#EXTVLCOPT:http-title=ProSieben Austria
+rtsp://192.168.0.36:554/?src=1&freq=12051&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,84,85,161,1025
+
+#EXTINF:-1 tvg-chno="816" channel-number="816" tvg-name="SAT.1 NRW",SAT.1 NRW
+#EXTVLCOPT:http-title=SAT.1 NRW
+rtsp://192.168.0.36:554/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,104,255,256,259
+
+#EXTINF:-1 tvg-chno="817" channel-number="817" tvg-name="SAT.1 Bayern",SAT.1 Bayern
+#EXTVLCOPT:http-title=SAT.1 Bayern
+rtsp://192.168.0.36:554/?src=1&freq=12545&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,103,255,256,259
+
+#EXTINF:-1 tvg-chno="818" channel-number="818" tvg-name="SAT.1 HH/SH",SAT.1 HH/SH
+#EXTVLCOPT:http-title=SAT.1 HH/SH
+rtsp://192.168.0.36:554/?src=1&freq=12051&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,103,2047,2048,2051
+
+#EXTINF:-1 tvg-chno="819" channel-number="819" tvg-name="SAT.1 NS/Bremen",SAT.1 NS/Bremen
+#EXTVLCOPT:http-title=SAT.1 NS/Bremen
+rtsp://192.168.0.36:554/?src=1&freq=12051&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,104,2047,2048,2051
+
+#EXTINF:-1 tvg-chno="820" channel-number="820" tvg-name="SAT.1 RhlPf/Hessen",SAT.1 RhlPf/Hessen
+#EXTVLCOPT:http-title=SAT.1 RhlPf/Hessen
+rtsp://192.168.0.36:554/?src=1&freq=12051&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,105,2047,2048,2051
+
+#EXTINF:-1 tvg-chno="821" channel-number="821" tvg-name="WDR HD Bielefeld",WDR HD Bielefeld
+#EXTVLCOPT:http-title=WDR HD Bielefeld
+rtsp://192.168.0.36:554/?src=1&freq=11523&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,101,102,103,106,107,120
+
+#EXTINF:-1 tvg-chno="822" channel-number="822" tvg-name="WDR HD Bonn",WDR HD Bonn
+#EXTVLCOPT:http-title=WDR HD Bonn
+rtsp://192.168.0.36:554/?src=1&freq=11523&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,101,102,103,106,107,130
+
+#EXTINF:-1 tvg-chno="823" channel-number="823" tvg-name="WDR HD Dortmund",WDR HD Dortmund
+#EXTVLCOPT:http-title=WDR HD Dortmund
+rtsp://192.168.0.36:554/?src=1&freq=11523&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,101,102,103,106,107,140
+
+#EXTINF:-1 tvg-chno="824" channel-number="824" tvg-name="WDR HD Duisburg",WDR HD Duisburg
+#EXTVLCOPT:http-title=WDR HD Duisburg
+rtsp://192.168.0.36:554/?src=1&freq=11523&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,101,102,103,106,107,150
+
+#EXTINF:-1 tvg-chno="825" channel-number="825" tvg-name="WDR HD Düsseldorf",WDR HD Düsseldorf
+#EXTVLCOPT:http-title=WDR HD Düsseldorf
+rtsp://192.168.0.36:554/?src=1&freq=11523&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,101,102,103,106,107,160
+
+#EXTINF:-1 tvg-chno="826" channel-number="826" tvg-name="WDR HD Essen",WDR HD Essen
+#EXTVLCOPT:http-title=WDR HD Essen
+rtsp://192.168.0.36:554/?src=1&freq=11523&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,101,102,103,106,107,170
+
+#EXTINF:-1 tvg-chno="827" channel-number="827" tvg-name="WDR HD Münster",WDR HD Münster
+#EXTVLCOPT:http-title=WDR HD Münster
+rtsp://192.168.0.36:554/?src=1&freq=11523&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,101,102,103,106,107,180
+
+#EXTINF:-1 tvg-chno="828" channel-number="828" tvg-name="WDR HD Siegen",WDR HD Siegen
+#EXTVLCOPT:http-title=WDR HD Siegen
+rtsp://192.168.0.36:554/?src=1&freq=11523&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,101,102,103,106,107,190
+
+#EXTINF:-1 tvg-chno="829" channel-number="829" tvg-name="WDR HD Wuppertal",WDR HD Wuppertal
+#EXTVLCOPT:http-title=WDR HD Wuppertal
+rtsp://192.168.0.36:554/?src=1&freq=11523&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,101,102,103,106,107,200
+
+#EXTINF:-1 tvg-chno="830" channel-number="830" tvg-name="WDR HD Aachen",WDR HD Aachen
+#EXTVLCOPT:http-title=WDR HD Aachen
+rtsp://192.168.0.36:554/?src=1&freq=11523&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,101,102,103,106,107,110
+
+#EXTINF:-1 tvg-chno="830" channel-number="830" tvg-name="WDR Mediathek (Internet)",WDR Mediathek (Internet)
+#EXTVLCOPT:http-title=WDR Mediathek (Internet)
+rtsp://192.168.0.36:554/?src=1&freq=11523&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,330,331,332,333
+
+#EXTINF:-1 tvg-chno="831" channel-number="831" tvg-name="DOKUSAT SD",DOKUSAT SD
+#EXTVLCOPT:http-title=DOKUSAT SD
+rtsp://192.168.0.36:554/?src=1&freq=12663&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,1030,1031,1103
+
+#EXTINF:-1 tvg-chno="832" channel-number="832" tvg-name="MTV",MTV
+#EXTVLCOPT:http-title=MTV
+rtsp://192.168.0.36:554/?src=1&freq=11973&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,418,4081,4082,4083
+
+#EXTINF:-1 tvg-chno="900" channel-number="900" tvg-name="ALT_Xplore",ALT_Xplore
+#EXTVLCOPT:http-title=ALT_Xplore
+rtsp://192.168.0.36:554/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=34&pids=0,17,18,96,255,256
+
+#EXTINF:-1 tvg-chno="901" channel-number="901" tvg-name="ALT_One Terra",ALT_One Terra
+#EXTVLCOPT:http-title=ALT_One Terra
+rtsp://192.168.0.36:554/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=34&pids=0,17,18,98,767,768
+
+#EXTINF:-1 tvg-chno="902" channel-number="902" tvg-name="ALT_Deluxe Rock",ALT_Deluxe Rock
+#EXTVLCOPT:http-title=ALT_Deluxe Rock
+rtsp://192.168.0.36:554/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=34&pids=0,17,18,99,1023,1024
+
+#EXTINF:-1 tvg-chno="903" channel-number="903" tvg-name="ALT_Deluxe Rap",ALT_Deluxe Rap
+#EXTVLCOPT:http-title=ALT_Deluxe Rap
+rtsp://192.168.0.36:554/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=34&pids=0,17,18,100,1279,1280
+
+#EXTINF:-1 tvg-chno="904" channel-number="904" tvg-name="ALT_Deluxe Dance by Kontor",ALT_Deluxe Dance by Kontor
+#EXTVLCOPT:http-title=ALT_Deluxe Dance by Kontor
+rtsp://192.168.0.36:554/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=34&pids=0,17,18,101,1535,1536
+
+#EXTINF:-1 tvg-chno="905" channel-number="905" tvg-name="ALT_Deluxe Flashback",ALT_Deluxe Flashback
+#EXTVLCOPT:http-title=ALT_Deluxe Flashback
+rtsp://192.168.0.36:554/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=34&pids=0,17,18,102,1791,1792
+
+#EXTINF:-1 tvg-chno="906" channel-number="906" tvg-name="ALT_Just Cooking",ALT_Just Cooking
+#EXTVLCOPT:http-title=ALT_Just Cooking
+rtsp://192.168.0.36:554/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=34&pids=0,17,18,103,2047,2048
+
+#EXTINF:-1 tvg-chno="907" channel-number="907" tvg-name="ALT_Just Fishing",ALT_Just Fishing
+#EXTVLCOPT:http-title=ALT_Just Fishing
+rtsp://192.168.0.36:554/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=34&pids=0,17,18,104,2303,2304
+
+#EXTINF:-1 tvg-chno="908" channel-number="908" tvg-name="ALT_Deluxe Lounge",ALT_Deluxe Lounge
+#EXTVLCOPT:http-title=ALT_Deluxe Lounge
+rtsp://192.168.0.36:554/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=34&pids=0,17,18,105,2559,2560
+
+#EXTINF:-1 tvg-chno="909" channel-number="909" tvg-name="ALT_Höhenrausch",ALT_Höhenrausch
+#EXTVLCOPT:http-title=ALT_Höhenrausch
+rtsp://192.168.0.36:554/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=34&pids=0,17,18,106,2815,2816
+
+#EXTINF:-1 tvg-chno="910" channel-number="910" tvg-name="ALT_Crime Time",ALT_Crime Time
+#EXTVLCOPT:http-title=ALT_Crime Time
+rtsp://192.168.0.36:554/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=34&pids=0,17,18,107,3071,3072
+
+#EXTINF:-1 tvg-chno="911" channel-number="911" tvg-name="ALT_SERIEN+",ALT_SERIEN+
+#EXTVLCOPT:http-title=ALT_SERIEN+
+rtsp://192.168.0.36:554/?src=1&freq=12610&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=34&pids=0,17,18,108,3327,3328
+
+#EXTINF:-1 tvg-chno="921" channel-number="921" tvg-name="Sexy Girls TV",Sexy Girls TV
+#EXTVLCOPT:http-title=Sexy Girls TV
+rtsp://192.168.0.36:554/?src=1&freq=12604&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,122,4096,4097
+
+#EXTINF:-1 tvg-chno="1000" channel-number="1000" tvg-name="NDR Blue",NDR Blue
+#EXTVLCOPT:http-title=NDR Blue
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,290,291
+
+#EXTINF:-1 tvg-chno="1001" channel-number="1001" tvg-name="FRANCE INFO",FRANCE INFO
+#EXTVLCOPT:http-title=FRANCE INFO
+rtsp://192.168.0.36:554/?src=1&freq=12285&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1904,2104
+
+#EXTINF:-1 tvg-chno="1002" channel-number="1002" tvg-name="Bremen Zwei",Bremen Zwei
+#EXTVLCOPT:http-title=Bremen Zwei
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,310,311
+
+#EXTINF:-1 tvg-chno="1003" channel-number="1003" tvg-name="FRANCE BLEU",FRANCE BLEU
+#EXTVLCOPT:http-title=FRANCE BLEU
+rtsp://192.168.0.36:554/?src=1&freq=12285&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1907,2107
+
+#EXTINF:-1 tvg-chno="1004" channel-number="1004" tvg-name="Fritz",Fritz
+#EXTVLCOPT:http-title=Fritz
+rtsp://192.168.0.36:554/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,950,951
+
+#EXTINF:-1 tvg-chno="1005" channel-number="1005" tvg-name="FRANCE INTER",FRANCE INTER
+#EXTVLCOPT:http-title=FRANCE INTER
+rtsp://192.168.0.36:554/?src=1&freq=12285&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1905,2105
+
+#EXTINF:-1 tvg-chno="1006" channel-number="1006" tvg-name="NDR 1 Nieders. HAN",NDR 1 Nieders. HAN
+#EXTVLCOPT:http-title=NDR 1 Nieders. HAN
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,270,271
+
+#EXTINF:-1 tvg-chno="1007" channel-number="1007" tvg-name="WDR 3",WDR 3
+#EXTVLCOPT:http-title=WDR 3
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,620,621
+
+#EXTINF:-1 tvg-chno="1008" channel-number="1008" tvg-name="Radio Horeb",Radio Horeb
+#EXTVLCOPT:http-title=Radio Horeb
+rtsp://192.168.0.36:554/?src=1&freq=12604&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,1289,7289
+
+#EXTINF:-1 tvg-chno="1009" channel-number="1009" tvg-name="ORF RADIO OE1 DOLBY",ORF RADIO OE1 DOLBY
+#EXTVLCOPT:http-title=ORF RADIO OE1 DOLBY
+rtsp://192.168.0.36:554/?src=1&freq=11303&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,151,940
+
+#EXTINF:-1 tvg-chno="1010" channel-number="1010" tvg-name="radioeins",radioeins
+#EXTVLCOPT:http-title=radioeins
+rtsp://192.168.0.36:554/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,940,941
+
+#EXTINF:-1 tvg-chno="1011" channel-number="1011" tvg-name="WDR 4",WDR 4
+#EXTVLCOPT:http-title=WDR 4
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,630,631
+
+#EXTINF:-1 tvg-chno="1012" channel-number="1012" tvg-name="TSF JAZZ",TSF JAZZ
+#EXTVLCOPT:http-title=TSF JAZZ
+rtsp://192.168.0.36:554/?src=1&freq=12285&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1916,2116
+
+#EXTINF:-1 tvg-chno="1013" channel-number="1013" tvg-name="ORF NOE",ORF NOE
+#EXTVLCOPT:http-title=ORF NOE
+rtsp://192.168.0.36:554/?src=1&freq=11303&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,143,943
+
+#EXTINF:-1 tvg-chno="1014" channel-number="1014" tvg-name="MDR JUMP",MDR JUMP
+#EXTVLCOPT:http-title=MDR JUMP
+rtsp://192.168.0.36:554/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,840,841
+
+#EXTINF:-1 tvg-chno="1015" channel-number="1015" tvg-name="NOSTALGIE",NOSTALGIE
+#EXTVLCOPT:http-title=NOSTALGIE
+rtsp://192.168.0.36:554/?src=1&freq=12285&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1970,2170
+
+#EXTINF:-1 tvg-chno="1016" channel-number="1016" tvg-name="ORF FM4",ORF FM4
+#EXTVLCOPT:http-title=ORF FM4
+rtsp://192.168.0.36:554/?src=1&freq=11303&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,141,941
+
+#EXTINF:-1 tvg-chno="1017" channel-number="1017" tvg-name="SWR3",SWR3
+#EXTVLCOPT:http-title=SWR3
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,530,531
+
+#EXTINF:-1 tvg-chno="1018" channel-number="1018" tvg-name="OLDIE ANTENNE",OLDIE ANTENNE
+#EXTVLCOPT:http-title=OLDIE ANTENNE
+rtsp://192.168.0.36:554/?src=1&freq=12148&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,32,368
+
+#EXTINF:-1 tvg-chno="1019" channel-number="1019" tvg-name="NDR Info",NDR Info
+#EXTVLCOPT:http-title=NDR Info
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,220,221
+
+#EXTINF:-1 tvg-chno="1020" channel-number="1020" tvg-name="ORF B",ORF B
+#EXTVLCOPT:http-title=ORF B
+rtsp://192.168.0.36:554/?src=1&freq=11303&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,144,944
+
+#EXTINF:-1 tvg-chno="1021" channel-number="1021" tvg-name="Radio Maryja",Radio Maryja
+#EXTVLCOPT:http-title=Radio Maryja
+rtsp://192.168.0.36:554/?src=1&freq=11288&pol=v&ro=0.20&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,37,48,8191
+
+#EXTINF:-1 tvg-chno="1022" channel-number="1022" tvg-name="MDR SACHSEN DD",MDR SACHSEN DD
+#EXTVLCOPT:http-title=MDR SACHSEN DD
+rtsp://192.168.0.36:554/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,800,801
+
+#EXTINF:-1 tvg-chno="1023" channel-number="1023" tvg-name="SWR Kultur",SWR Kultur
+#EXTVLCOPT:http-title=SWR Kultur
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,520,521
+
+#EXTINF:-1 tvg-chno="1024" channel-number="1024" tvg-name="RADIO MARIA",RADIO MARIA
+#EXTVLCOPT:http-title=RADIO MARIA
+rtsp://192.168.0.36:554/?src=1&freq=12663&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,440,1140
+
+#EXTINF:-1 tvg-chno="1025" channel-number="1025" tvg-name="NDR1 Welle Nord KI",NDR1 Welle Nord KI
+#EXTVLCOPT:http-title=NDR1 Welle Nord KI
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,250,251
+
+#EXTINF:-1 tvg-chno="1026" channel-number="1026" tvg-name="RIRE ET CHANSONS",RIRE ET CHANSONS
+#EXTVLCOPT:http-title=RIRE ET CHANSONS
+rtsp://192.168.0.36:554/?src=1&freq=12285&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1913,2113
+
+#EXTINF:-1 tvg-chno="1027" channel-number="1027" tvg-name="NDR 1 Radio MV SN",NDR 1 Radio MV SN
+#EXTVLCOPT:http-title=NDR 1 Radio MV SN
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,260,261
+
+#EXTINF:-1 tvg-chno="1028" channel-number="1028" tvg-name="CONTACT FM",CONTACT FM
+#EXTVLCOPT:http-title=CONTACT FM
+rtsp://192.168.0.36:554/?src=1&freq=12285&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1969,2169
+
+#EXTINF:-1 tvg-chno="1029" channel-number="1029" tvg-name="ORF HITRADIO OE3",ORF HITRADIO OE3
+#EXTVLCOPT:http-title=ORF HITRADIO OE3
+rtsp://192.168.0.36:554/?src=1&freq=11303&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,120,921
+
+#EXTINF:-1 tvg-chno="1030" channel-number="1030" tvg-name="RTL RADIO",RTL RADIO
+#EXTVLCOPT:http-title=RTL RADIO
+rtsp://192.168.0.36:554/?src=1&freq=12604&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,7931,7932
+
+#EXTINF:-1 tvg-chno="1031" channel-number="1031" tvg-name="ORF WIEN",ORF WIEN
+#EXTVLCOPT:http-title=ORF WIEN
+rtsp://192.168.0.36:554/?src=1&freq=11303&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,142,942
+
+#EXTINF:-1 tvg-chno="1032" channel-number="1032" tvg-name="DASDING vom SWR",DASDING vom SWR
+#EXTVLCOPT:http-title=DASDING vom SWR
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,560,561
+
+#EXTINF:-1 tvg-chno="1033" channel-number="1033" tvg-name="RFI INTERNATIONAL",RFI INTERNATIONAL
+#EXTVLCOPT:http-title=RFI INTERNATIONAL
+rtsp://192.168.0.36:554/?src=1&freq=12285&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1908,2108
+
+#EXTINF:-1 tvg-chno="1034" channel-number="1034" tvg-name="SWR1 RLP",SWR1 RLP
+#EXTVLCOPT:http-title=SWR1 RLP
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,510,511
+
+#EXTINF:-1 tvg-chno="1035" channel-number="1035" tvg-name="Bremen Vier",Bremen Vier
+#EXTVLCOPT:http-title=Bremen Vier
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,320,321
+
+#EXTINF:-1 tvg-chno="1036" channel-number="1036" tvg-name="hr INFO",hr INFO
+#EXTVLCOPT:http-title=hr INFO
+rtsp://192.168.0.36:554/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,750,751
+
+#EXTINF:-1 tvg-chno="1037" channel-number="1037" tvg-name="RADIO NOTRE DAME",RADIO NOTRE DAME
+#EXTVLCOPT:http-title=RADIO NOTRE DAME
+rtsp://192.168.0.36:554/?src=1&freq=12285&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1942,2142
+
+#EXTINF:-1 tvg-chno="1038" channel-number="1038" tvg-name="SUD RADIO",SUD RADIO
+#EXTVLCOPT:http-title=SUD RADIO
+rtsp://192.168.0.36:554/?src=1&freq=12285&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1914,2114
+
+#EXTINF:-1 tvg-chno="1039" channel-number="1039" tvg-name="Bayern 2",Bayern 2
+#EXTVLCOPT:http-title=Bayern 2
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,110,111
+
+#EXTINF:-1 tvg-chno="1040" channel-number="1040" tvg-name="rbb 88.8",rbb 88.8
+#EXTVLCOPT:http-title=rbb 88.8
+rtsp://192.168.0.36:554/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,930,931
+
+#EXTINF:-1 tvg-chno="1041" channel-number="1041" tvg-name="MDR KLASSIK",MDR KLASSIK
+#EXTVLCOPT:http-title=MDR KLASSIK
+rtsp://192.168.0.36:554/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,870,871
+
+#EXTINF:-1 tvg-chno="1042" channel-number="1042" tvg-name="Radio HCJB",Radio HCJB
+#EXTVLCOPT:http-title=Radio HCJB
+rtsp://192.168.0.36:554/?src=1&freq=12633&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,157,357
+
+#EXTINF:-1 tvg-chno="1043" channel-number="1043" tvg-name="BR-Heimat",BR-Heimat
+#EXTVLCOPT:http-title=BR-Heimat
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,180,181
+
+#EXTINF:-1 tvg-chno="1044" channel-number="1044" tvg-name="SWR 5.1 Kultur",SWR 5.1 Kultur
+#EXTVLCOPT:http-title=SWR 5.1 Kultur
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,580,581
+
+#EXTINF:-1 tvg-chno="1045" channel-number="1045" tvg-name="RADIO MELODY",RADIO MELODY
+#EXTVLCOPT:http-title=RADIO MELODY
+rtsp://192.168.0.36:554/?src=1&freq=12285&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1965,2165
+
+#EXTINF:-1 tvg-chno="1046" channel-number="1046" tvg-name="sunshine live",sunshine live
+#EXTVLCOPT:http-title=sunshine live
+rtsp://192.168.0.36:554/?src=1&freq=12148&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,102,336
+
+#EXTINF:-1 tvg-chno="1047" channel-number="1047" tvg-name="RADIO CLASSIQUE",RADIO CLASSIQUE
+#EXTVLCOPT:http-title=RADIO CLASSIQUE
+rtsp://192.168.0.36:554/?src=1&freq=12285&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1909,2109
+
+#EXTINF:-1 tvg-chno="1048" channel-number="1048" tvg-name="NAIZ irratia",NAIZ irratia
+#EXTVLCOPT:http-title=NAIZ irratia
+rtsp://192.168.0.36:554/?src=1&freq=11376&pol=v&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,100,103
+
+#EXTINF:-1 tvg-chno="1049" channel-number="1049" tvg-name="BR Schlager",BR Schlager
+#EXTVLCOPT:http-title=BR Schlager
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,160,161
+
+#EXTINF:-1 tvg-chno="1050" channel-number="1050" tvg-name="Bremen Eins",Bremen Eins
+#EXTVLCOPT:http-title=Bremen Eins
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,300,301
+
+#EXTINF:-1 tvg-chno="1051" channel-number="1051" tvg-name="SKYROCK",SKYROCK
+#EXTVLCOPT:http-title=SKYROCK
+rtsp://192.168.0.36:554/?src=1&freq=12285&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1963,2163
+
+#EXTINF:-1 tvg-chno="1052" channel-number="1052" tvg-name="BBCW SERVICE",BBCW SERVICE
+#EXTVLCOPT:http-title=BBCW SERVICE
+rtsp://192.168.0.36:554/?src=1&freq=12285&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1951,2151
+
+#EXTINF:-1 tvg-chno="1053" channel-number="1053" tvg-name="NDR 2 NDS",NDR 2 NDS
+#EXTVLCOPT:http-title=NDR 2 NDS
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,200,201
+
+#EXTINF:-1 tvg-chno="1054" channel-number="1054" tvg-name="MDR S-ANHALT MD",MDR S-ANHALT MD
+#EXTVLCOPT:http-title=MDR S-ANHALT MD
+rtsp://192.168.0.36:554/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,810,811
+
+#EXTINF:-1 tvg-chno="1055" channel-number="1055" tvg-name="SWR Aktuell",SWR Aktuell
+#EXTVLCOPT:http-title=SWR Aktuell
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,570,571
+
+#EXTINF:-1 tvg-chno="1056" channel-number="1056" tvg-name="Bayern 1",Bayern 1
+#EXTVLCOPT:http-title=Bayern 1
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,100,101
+
+#EXTINF:-1 tvg-chno="1057" channel-number="1057" tvg-name="ORF OOE",ORF OOE
+#EXTVLCOPT:http-title=ORF OOE
+rtsp://192.168.0.36:554/?src=1&freq=11303&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,145,945
+
+#EXTINF:-1 tvg-chno="1059" channel-number="1059" tvg-name="N-JOY",N-JOY
+#EXTVLCOPT:http-title=N-JOY
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,230,231
+
+#EXTINF:-1 tvg-chno="1060" channel-number="1060" tvg-name="MDR THÜR Mitte-W",MDR THÜR Mitte-W
+#EXTVLCOPT:http-title=MDR THÜR Mitte-W
+rtsp://192.168.0.36:554/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,820,821
+
+#EXTINF:-1 tvg-chno="1061" channel-number="1061" tvg-name="BAYERN 3",BAYERN 3
+#EXTVLCOPT:http-title=BAYERN 3
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,120,121
+
+#EXTINF:-1 tvg-chno="1062" channel-number="1062" tvg-name="ANTENNE BAYERN",ANTENNE BAYERN
+#EXTVLCOPT:http-title=ANTENNE BAYERN
+rtsp://192.168.0.36:554/?src=1&freq=12148&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,112,352
+
+#EXTINF:-1 tvg-chno="1063" channel-number="1063" tvg-name="SWR4 S",SWR4 S
+#EXTVLCOPT:http-title=SWR4 S
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,540,541
+
+#EXTINF:-1 tvg-chno="1064" channel-number="1064" tvg-name="FRANCE CULTURE",FRANCE CULTURE
+#EXTVLCOPT:http-title=FRANCE CULTURE
+rtsp://192.168.0.36:554/?src=1&freq=12285&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1906,2106
+
+#EXTINF:-1 tvg-chno="1065" channel-number="1065" tvg-name="hr4",hr4
+#EXTVLCOPT:http-title=hr4
+rtsp://192.168.0.36:554/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,730,731
+
+#EXTINF:-1 tvg-chno="1066" channel-number="1066" tvg-name="Bremen NEXT",Bremen NEXT
+#EXTVLCOPT:http-title=Bremen NEXT
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,330,331
+
+#EXTINF:-1 tvg-chno="1067" channel-number="1067" tvg-name="COSMO",COSMO
+#EXTVLCOPT:http-title=COSMO
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,650,651
+
+#EXTINF:-1 tvg-chno="1068" channel-number="1068" tvg-name="1LIVE diGGi",1LIVE diGGi
+#EXTVLCOPT:http-title=1LIVE diGGi
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,660,661
+
+#EXTINF:-1 tvg-chno="1068" channel-number="1068" tvg-name="NDR 90,3",NDR 90,3
+#EXTVLCOPT:http-title=NDR 90,3
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,240,241
+
+#EXTINF:-1 tvg-chno="1069" channel-number="1069" tvg-name="MDR SPUTNIK",MDR SPUTNIK
+#EXTVLCOPT:http-title=MDR SPUTNIK
+rtsp://192.168.0.36:554/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,850,851
+
+#EXTINF:-1 tvg-chno="1070" channel-number="1070" tvg-name="ORF T",ORF T
+#EXTVLCOPT:http-title=ORF T
+rtsp://192.168.0.36:554/?src=1&freq=11303&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,147,947
+
+#EXTINF:-1 tvg-chno="1071" channel-number="1071" tvg-name="Die Maus",Die Maus
+#EXTVLCOPT:http-title=Die Maus
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,670,671
+
+#EXTINF:-1 tvg-chno="1072" channel-number="1072" tvg-name="WDR Event",WDR Event
+#EXTVLCOPT:http-title=WDR Event
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,680,681
+
+#EXTINF:-1 tvg-chno="1073" channel-number="1073" tvg-name="CHERIE FM",CHERIE FM
+#EXTVLCOPT:http-title=CHERIE FM
+rtsp://192.168.0.36:554/?src=1&freq=12285&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1973,2173
+
+#EXTINF:-1 tvg-chno="1074" channel-number="1074" tvg-name="RADIO FG",RADIO FG
+#EXTVLCOPT:http-title=RADIO FG
+rtsp://192.168.0.36:554/?src=1&freq=12285&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1967,2167
+
+#EXTINF:-1 tvg-chno="1075" channel-number="1075" tvg-name="hr2",hr2
+#EXTVLCOPT:http-title=hr2
+rtsp://192.168.0.36:554/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,710,711
+
+#EXTINF:-1 tvg-chno="1076" channel-number="1076" tvg-name="NDR Kultur",NDR Kultur
+#EXTVLCOPT:http-title=NDR Kultur
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,210,213
+
+#EXTINF:-1 tvg-chno="1077" channel-number="1077" tvg-name="EUROPE 1",EUROPE 1
+#EXTVLCOPT:http-title=EUROPE 1
+rtsp://192.168.0.36:554/?src=1&freq=12285&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1911,2111
+
+#EXTINF:-1 tvg-chno="1078" channel-number="1078" tvg-name="SR kultur",SR kultur
+#EXTVLCOPT:http-title=SR kultur
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,410,411
+
+#EXTINF:-1 tvg-chno="1079" channel-number="1079" tvg-name="MDR AKTUELL",MDR AKTUELL
+#EXTVLCOPT:http-title=MDR AKTUELL
+rtsp://192.168.0.36:554/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,860,861
+
+#EXTINF:-1 tvg-chno="1080" channel-number="1080" tvg-name="Dlf",Dlf
+#EXTVLCOPT:http-title=Dlf
+rtsp://192.168.0.36:554/?src=1&freq=11362&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,6910,6911
+
+#EXTINF:-1 tvg-chno="1081" channel-number="1081" tvg-name="ORF OE1",ORF OE1
+#EXTVLCOPT:http-title=ORF OE1
+rtsp://192.168.0.36:554/?src=1&freq=11303&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,140,940
+
+#EXTINF:-1 tvg-chno="1082" channel-number="1082" tvg-name="ORF STMK",ORF STMK
+#EXTVLCOPT:http-title=ORF STMK
+rtsp://192.168.0.36:554/?src=1&freq=11303&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,149,949
+
+#EXTINF:-1 tvg-chno="1083" channel-number="1083" tvg-name="RFM",RFM
+#EXTVLCOPT:http-title=RFM
+rtsp://192.168.0.36:554/?src=1&freq=12285&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1972,2172
+
+#EXTINF:-1 tvg-chno="1084" channel-number="1084" tvg-name="NDR Schlager",NDR Schlager
+#EXTVLCOPT:http-title=NDR Schlager
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,295,296
+
+#EXTINF:-1 tvg-chno="1085" channel-number="1085" tvg-name="ROCK ANTENNE",ROCK ANTENNE
+#EXTVLCOPT:http-title=ROCK ANTENNE
+rtsp://192.168.0.36:554/?src=1&freq=12148&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,101,304
+
+#EXTINF:-1 tvg-chno="1086" channel-number="1086" tvg-name="rbb24 Inforadio",rbb24 Inforadio
+#EXTVLCOPT:http-title=rbb24 Inforadio
+rtsp://192.168.0.36:554/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,900,901
+
+#EXTINF:-1 tvg-chno="1088" channel-number="1088" tvg-name="FIP",FIP
+#EXTVLCOPT:http-title=FIP
+rtsp://192.168.0.36:554/?src=1&freq=12285&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1903,2103
+
+#EXTINF:-1 tvg-chno="1089" channel-number="1089" tvg-name="DASDING vom hr",DASDING vom hr
+#EXTVLCOPT:http-title=DASDING vom hr
+rtsp://192.168.0.36:554/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,740,741
+
+#EXTINF:-1 tvg-chno="1090" channel-number="1090" tvg-name="BR24",BR24
+#EXTVLCOPT:http-title=BR24
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,140,141
+
+#EXTINF:-1 tvg-chno="1091" channel-number="1091" tvg-name="WDR 2",WDR 2
+#EXTVLCOPT:http-title=WDR 2
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,610,611
+
+#EXTINF:-1 tvg-chno="1092" channel-number="1092" tvg-name="SWR1 BW",SWR1 BW
+#EXTVLCOPT:http-title=SWR1 BW
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,500,501
+
+#EXTINF:-1 tvg-chno="1093" channel-number="1093" tvg-name="Radio Paloma",Radio Paloma
+#EXTVLCOPT:http-title=Radio Paloma
+rtsp://192.168.0.36:554/?src=1&freq=12633&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,155,355
+
+#EXTINF:-1 tvg-chno="1094" channel-number="1094" tvg-name=".",.
+#EXTVLCOPT:http-title=.
+rtsp://192.168.0.36:554/?src=1&freq=12363&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,1296,2046,8191
+
+#EXTINF:-1 tvg-chno="1095" channel-number="1095" tvg-name="SWR4 MZ",SWR4 MZ
+#EXTVLCOPT:http-title=SWR4 MZ
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,550,551
+
+#EXTINF:-1 tvg-chno="1096" channel-number="1096" tvg-name="ORF K",ORF K
+#EXTVLCOPT:http-title=ORF K
+rtsp://192.168.0.36:554/?src=1&freq=11303&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,150,950
+
+#EXTINF:-1 tvg-chno="1097" channel-number="1097" tvg-name="Dlf Nova",Dlf Nova
+#EXTVLCOPT:http-title=Dlf Nova
+rtsp://192.168.0.36:554/?src=1&freq=11362&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,6920,6921
+
+#EXTINF:-1 tvg-chno="1098" channel-number="1098" tvg-name="EUROPE 2",EUROPE 2
+#EXTVLCOPT:http-title=EUROPE 2
+rtsp://192.168.0.36:554/?src=1&freq=12285&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1961,2161
+
+#EXTINF:-1 tvg-chno="1099" channel-number="1099" tvg-name="Antenne Brbg.",Antenne Brbg.
+#EXTVLCOPT:http-title=Antenne Brbg.
+rtsp://192.168.0.36:554/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,920,921
+
+#EXTINF:-1 tvg-chno="1100" channel-number="1100" tvg-name="ORF S",ORF S
+#EXTVLCOPT:http-title=ORF S
+rtsp://192.168.0.36:554/?src=1&freq=11303&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,146,946
+
+#EXTINF:-1 tvg-chno="1101" channel-number="1101" tvg-name="TEST RA ESP",TEST RA ESP
+#EXTVLCOPT:http-title=TEST RA ESP
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,400,1078,8191
+
+#EXTINF:-1 tvg-chno="1102" channel-number="1102" tvg-name="NOVA",NOVA
+#EXTVLCOPT:http-title=NOVA
+rtsp://192.168.0.36:554/?src=1&freq=12285&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1966,2166
+
+#EXTINF:-1 tvg-chno="1103" channel-number="1103" tvg-name="Radio HBR",Radio HBR
+#EXTVLCOPT:http-title=Radio HBR
+rtsp://192.168.0.36:554/?src=1&freq=12633&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,156,356
+
+#EXTINF:-1 tvg-chno="1104" channel-number="1104" tvg-name="JAZZ RADIO",JAZZ RADIO
+#EXTVLCOPT:http-title=JAZZ RADIO
+rtsp://192.168.0.36:554/?src=1&freq=12285&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1978,2178
+
+#EXTINF:-1 tvg-chno="1105" channel-number="1105" tvg-name="NRJ",NRJ
+#EXTVLCOPT:http-title=NRJ
+rtsp://192.168.0.36:554/?src=1&freq=12285&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1960,2160
+
+#EXTINF:-1 tvg-chno="1106" channel-number="1106" tvg-name="radio3",radio3
+#EXTVLCOPT:http-title=radio3
+rtsp://192.168.0.36:554/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,910,911
+
+#EXTINF:-1 tvg-chno="1107" channel-number="1107" tvg-name="BEUR FM",BEUR FM
+#EXTVLCOPT:http-title=BEUR FM
+rtsp://192.168.0.36:554/?src=1&freq=12285&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1945,2145
+
+#EXTINF:-1 tvg-chno="1108" channel-number="1108" tvg-name="BR-KLASSIK",BR-KLASSIK
+#EXTVLCOPT:http-title=BR-KLASSIK
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,130,131
+
+#EXTINF:-1 tvg-chno="1108" channel-number="1108" tvg-name="WDR 5",WDR 5
+#EXTVLCOPT:http-title=WDR 5
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,640,641
+
+#EXTINF:-1 tvg-chno="1110" channel-number="1110" tvg-name="ffn",ffn
+#EXTVLCOPT:http-title=ffn
+rtsp://192.168.0.36:554/?src=1&freq=12633&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,154,354
+
+#EXTINF:-1 tvg-chno="1111" channel-number="1111" tvg-name="Dlf Kultur",Dlf Kultur
+#EXTVLCOPT:http-title=Dlf Kultur
+rtsp://192.168.0.36:554/?src=1&freq=11362&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,6900,6901
+
+#EXTINF:-1 tvg-chno="1112" channel-number="1112" tvg-name="ORF V",ORF V
+#EXTVLCOPT:http-title=ORF V
+rtsp://192.168.0.36:554/?src=1&freq=11303&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,148,948
+
+#EXTINF:-1 tvg-chno="1113" channel-number="1113" tvg-name="SR 1 Europawelle",SR 1 Europawelle
+#EXTVLCOPT:http-title=SR 1 Europawelle
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,400,401
+
+#EXTINF:-1 tvg-chno="1114" channel-number="1114" tvg-name="Klassik Radio",Klassik Radio
+#EXTVLCOPT:http-title=Klassik Radio
+rtsp://192.168.0.36:554/?src=1&freq=12460&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,133,336
+
+#EXTINF:-1 tvg-chno="1115" channel-number="1115" tvg-name="NDR Info Spezial",NDR Info Spezial
+#EXTVLCOPT:http-title=NDR Info Spezial
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,280,281
+
+#EXTINF:-1 tvg-chno="1116" channel-number="1116" tvg-name="TOGGO Radio",TOGGO Radio
+#EXTVLCOPT:http-title=TOGGO Radio
+rtsp://192.168.0.36:554/?src=1&freq=12188&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,59,501
+
+#EXTINF:-1 tvg-chno="1117" channel-number="1117" tvg-name="MDR KULTUR",MDR KULTUR
+#EXTVLCOPT:http-title=MDR KULTUR
+rtsp://192.168.0.36:554/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,830,831
+
+#EXTINF:-1 tvg-chno="1118" channel-number="1118" tvg-name="SR 3 Saarlandwelle",SR 3 Saarlandwelle
+#EXTVLCOPT:http-title=SR 3 Saarlandwelle
+rtsp://192.168.0.36:554/?src=1&freq=11053&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,420,421
+
+#EXTINF:-1 tvg-chno="1119" channel-number="1119" tvg-name="hr3",hr3
+#EXTVLCOPT:http-title=hr3
+rtsp://192.168.0.36:554/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,720,721
+
+#EXTINF:-1 tvg-chno="1120" channel-number="1120" tvg-name="FRANCE MUSIQUE",FRANCE MUSIQUE
+#EXTVLCOPT:http-title=FRANCE MUSIQUE
+rtsp://192.168.0.36:554/?src=1&freq=12285&pol=v&ro=0.25&msys=dvbs2&mtype=8psk&plts=on&sr=29700&fec=23&pids=0,17,18,1901,2101
+
+#EXTINF:-1 tvg-chno="1121" channel-number="1121" tvg-name="DRadio Dok&amp;Deb",DRadio Dok&Deb
+#EXTVLCOPT:http-title=DRadio Dok&Deb
+rtsp://192.168.0.36:554/?src=1&freq=11362&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,6930,6931
+
+#EXTINF:-1 tvg-chno="1123" channel-number="1123" tvg-name="hr1",hr1
+#EXTVLCOPT:http-title=hr1
+rtsp://192.168.0.36:554/?src=1&freq=10891&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,700,701
+
+#EXTINF:-1 tvg-chno="1130" channel-number="1130" tvg-name="ORF HITRADIO OE3 VISUAL",ORF HITRADIO OE3 VISUAL
+#EXTVLCOPT:http-title=ORF HITRADIO OE3 VISUAL
+rtsp://192.168.0.36:554/?src=1&freq=11303&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,117,2970,2971
+
+#EXTINF:-1 tvg-chno="2222" channel-number="2222" tvg-name="UHD1 by ASTRA / HD+",UHD1 by ASTRA / HD+
+#EXTVLCOPT:http-title=UHD1 by ASTRA / HD+
+rtsp://192.168.0.36:554/?src=1&freq=10994&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=56&pids=0,17,18,96,101,102
+
+#EXTINF:-1 tvg-chno="4000" channel-number="4000" tvg-name="Bibel TV",Bibel TV
+#EXTVLCOPT:http-title=Bibel TV
+rtsp://192.168.0.36:554/?src=1&freq=12552&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,32,33,34
+
+#EXTINF:-1 tvg-chno="4001" channel-number="4001" tvg-name="SBN International",SBN International
+#EXTVLCOPT:http-title=SBN International
+rtsp://192.168.0.36:554/?src=1&freq=12552&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,1001,2001,3001,4001
+
+#EXTINF:-1 tvg-chno="4002" channel-number="4002" tvg-name="K-TV HD",K-TV HD
+#EXTVLCOPT:http-title=K-TV HD
+rtsp://192.168.0.36:554/?src=1&freq=11112&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,99,1023,1024
+
+#EXTINF:-1 tvg-chno="4003" channel-number="4003" tvg-name="Spirit TV",Spirit TV
+#EXTVLCOPT:http-title=Spirit TV
+rtsp://192.168.0.36:554/?src=1&freq=12480&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,98,2559,2560
+
+#EXTINF:-1 tvg-chno="4004" channel-number="4004" tvg-name="EWTN katholisches TV HD",EWTN katholisches TV HD
+#EXTVLCOPT:http-title=EWTN katholisches TV HD
+rtsp://192.168.0.36:554/?src=1&freq=12663&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,1241,2410,2411
+
+#EXTINF:-1 tvg-chno="4005" channel-number="4005" tvg-name="Bibel TV HD",Bibel TV HD
+#EXTVLCOPT:http-title=Bibel TV HD
+rtsp://192.168.0.36:554/?src=1&freq=11244&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,224,2240,2241
+
+#EXTINF:-1 tvg-chno="4006" channel-number="4006" tvg-name="Hope TV",Hope TV
+#EXTVLCOPT:http-title=Hope TV
+rtsp://192.168.0.36:554/?src=1&freq=11244&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,227,2270,2271
+
+#EXTINF:-1 tvg-chno="4007" channel-number="4007" tvg-name="Die Neue Zeit TV",Die Neue Zeit TV
+#EXTVLCOPT:http-title=Die Neue Zeit TV
+rtsp://192.168.0.36:554/?src=1&freq=11068&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,1000,2101,2102
+
+#EXTINF:-1 tvg-chno="4008" channel-number="4008" tvg-name="SENDER NEU JERUSALEM",SENDER NEU JERUSALEM
+#EXTVLCOPT:http-title=SENDER NEU JERUSALEM
+rtsp://192.168.0.36:554/?src=1&freq=11068&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,100,1001,1002
+
+#EXTINF:-1 tvg-chno="6000" channel-number="6000" tvg-name="EROTIKA TV - NEU!_ALT",EROTIKA TV - NEU!_ALT
+#EXTVLCOPT:http-title=EROTIKA TV - NEU!_ALT
+rtsp://192.168.0.36:554/?src=1&freq=12633&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,139,235,339
+
+#EXTINF:-1 tvg-chno="6001" channel-number="6001" tvg-name="Heisse Dates TV_ALT",Heisse Dates TV_ALT
+#EXTVLCOPT:http-title=Heisse Dates TV_ALT
+rtsp://192.168.0.36:554/?src=1&freq=12633&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,123,235,339
+
+#EXTINF:-1 tvg-chno="6002" channel-number="6002" tvg-name="TeleSex TV_ALT",TeleSex TV_ALT
+#EXTVLCOPT:http-title=TeleSex TV_ALT
+rtsp://192.168.0.36:554/?src=1&freq=12633&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,141,235,339
+
+#EXTINF:-1 tvg-chno="6003" channel-number="6003" tvg-name="PASS XXL DORCEL",PASS XXL DORCEL
+#EXTVLCOPT:http-title=PASS XXL DORCEL
+rtsp://192.168.0.36:554/?src=1&freq=12363&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,1342,2047,8191
+
+#EXTINF:-1 tvg-chno="6004" channel-number="6004" tvg-name="Babestation24_ALT",Babestation24_ALT
+#EXTVLCOPT:http-title=Babestation24_ALT
+rtsp://192.168.0.36:554/?src=1&freq=12633&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,135,235,339
+
+#EXTINF:-1 tvg-chno="6005" channel-number="6005" tvg-name="PASS PINK X",PASS PINK X
+#EXTVLCOPT:http-title=PASS PINK X
+rtsp://192.168.0.36:554/?src=1&freq=12363&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,1345,2047,8191
+
+#EXTINF:-1 tvg-chno="6006" channel-number="6006" tvg-name="Mobile Sex_ALT",Mobile Sex_ALT
+#EXTVLCOPT:http-title=Mobile Sex_ALT
+rtsp://192.168.0.36:554/?src=1&freq=12633&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,125,226,326
+
+#EXTINF:-1 tvg-chno="6007" channel-number="6007" tvg-name="Sexy Girls TV_ALT",Sexy Girls TV_ALT
+#EXTVLCOPT:http-title=Sexy Girls TV_ALT
+rtsp://192.168.0.36:554/?src=1&freq=12633&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,122,235,339
+
+#EXTINF:-1 tvg-chno="6008" channel-number="6008" tvg-name="Hot Babes TV_ALT",Hot Babes TV_ALT
+#EXTVLCOPT:http-title=Hot Babes TV_ALT
+rtsp://192.168.0.36:554/?src=1&freq=12633&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,124,226,326
+
+#EXTINF:-1 tvg-chno="6009" channel-number="6009" tvg-name="Sexy Treff TV_ALT",Sexy Treff TV_ALT
+#EXTVLCOPT:http-title=Sexy Treff TV_ALT
+rtsp://192.168.0.36:554/?src=1&freq=12633&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,140,226,326
+
+#EXTINF:-1 tvg-chno="6010" channel-number="6010" tvg-name="Sex-Kontakte_ALT",Sex-Kontakte_ALT
+#EXTVLCOPT:http-title=Sex-Kontakte_ALT
+rtsp://192.168.0.36:554/?src=1&freq=12633&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,126,226,326
+
+#EXTINF:-1 tvg-chno="9000" channel-number="9000" tvg-name=".4.",.4.
+#EXTVLCOPT:http-title=.4.
+rtsp://192.168.0.36:554/?src=1&freq=11171&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,117,5887,5888
+
+#EXTINF:-1 tvg-chno="9001" channel-number="9001" tvg-name="4mediathek",4mediathek
+#EXTVLCOPT:http-title=4mediathek
+rtsp://192.168.0.36:554/?src=1&freq=11671&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,101,1535,8191
+
+#EXTINF:-1 tvg-chno="9003" channel-number="9003" tvg-name="Neuer Sender",Neuer Sender
+#EXTVLCOPT:http-title=Neuer Sender
+rtsp://192.168.0.36:554/?src=1&freq=12663&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,1010,1107
+
+#EXTINF:-1 tvg-chno="9004" channel-number="9004" tvg-name="JOYN Mediathek",JOYN Mediathek
+#EXTVLCOPT:http-title=JOYN Mediathek
+rtsp://192.168.0.36:554/?src=1&freq=12663&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,1212,2120
+
+#EXTINF:-1 tvg-chno="9005" channel-number="9005" tvg-name="Astra Demo",Astra Demo
+#EXTVLCOPT:http-title=Astra Demo
+rtsp://192.168.0.36:554/?src=1&freq=11954&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,107,4096,4097
+
+#EXTINF:-1 tvg-chno="9005" channel-number="9005" tvg-name="Test42",Test42
+#EXTVLCOPT:http-title=Test42
+rtsp://192.168.0.36:554/?src=1&freq=11244&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,231,2310
+
+#EXTINF:-1 tvg-chno="9006" channel-number="9006" tvg-name="Astra Demo",Astra Demo
+#EXTVLCOPT:http-title=Astra Demo
+rtsp://192.168.0.36:554/?src=1&freq=11954&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,108,4096,4097
+
+#EXTINF:-1 tvg-chno="9006" channel-number="9006" tvg-name="Test43",Test43
+#EXTVLCOPT:http-title=Test43
+rtsp://192.168.0.36:554/?src=1&freq=11244&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,232,2310
+
+#EXTINF:-1 tvg-chno="9007" channel-number="9007" tvg-name="Astra Demo",Astra Demo
+#EXTVLCOPT:http-title=Astra Demo
+rtsp://192.168.0.36:554/?src=1&freq=11954&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,111,4096,4097
+
+#EXTINF:-1 tvg-chno="9008" channel-number="9008" tvg-name="Astra Demo",Astra Demo
+#EXTVLCOPT:http-title=Astra Demo
+rtsp://192.168.0.36:554/?src=1&freq=11954&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,114,4096,4097
+
+#EXTINF:-1 tvg-chno="9009" channel-number="9009" tvg-name="Astra Demo",Astra Demo
+#EXTVLCOPT:http-title=Astra Demo
+rtsp://192.168.0.36:554/?src=1&freq=11836&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,480,4096,4097
+
+#EXTINF:-1 tvg-chno="9010" channel-number="9010" tvg-name="Astra Demo",Astra Demo
+#EXTVLCOPT:http-title=Astra Demo
+rtsp://192.168.0.36:554/?src=1&freq=12422&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,480,4096,4097
+
+#EXTINF:-1 tvg-chno="9011" channel-number="9011" tvg-name="Astra Demo",Astra Demo
+#EXTVLCOPT:http-title=Astra Demo
+rtsp://192.168.0.36:554/?src=1&freq=12422&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,48,4096,4097
+
+#EXTINF:-1 tvg-chno="9012" channel-number="9012" tvg-name="Astra Demo",Astra Demo
+#EXTVLCOPT:http-title=Astra Demo
+rtsp://192.168.0.36:554/?src=1&freq=12422&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,49,4096,4097
+
+#EXTINF:-1 tvg-chno="9013" channel-number="9013" tvg-name="Astra Demo",Astra Demo
+#EXTVLCOPT:http-title=Astra Demo
+rtsp://192.168.0.36:554/?src=1&freq=12422&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,50,4096,4097
+
+#EXTINF:-1 tvg-chno="9014" channel-number="9014" tvg-name="Astra Demo",Astra Demo
+#EXTVLCOPT:http-title=Astra Demo
+rtsp://192.168.0.36:554/?src=1&freq=12422&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,51,4096,4097
+
+#EXTINF:-1 tvg-chno="9015" channel-number="9015" tvg-name="Astra Demo",Astra Demo
+#EXTVLCOPT:http-title=Astra Demo
+rtsp://192.168.0.36:554/?src=1&freq=12422&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,52,4096,4097
+
+#EXTINF:-1 tvg-chno="9016" channel-number="9016" tvg-name="Astra Demo",Astra Demo
+#EXTVLCOPT:http-title=Astra Demo
+rtsp://192.168.0.36:554/?src=1&freq=12422&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,53,4096,4097
+
+#EXTINF:-1 tvg-chno="9017" channel-number="9017" tvg-name="Astra Demo",Astra Demo
+#EXTVLCOPT:http-title=Astra Demo
+rtsp://192.168.0.36:554/?src=1&freq=12422&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,54,4096,4097
+
+#EXTINF:-1 tvg-chno="9018" channel-number="9018" tvg-name="Astra Demo",Astra Demo
+#EXTVLCOPT:http-title=Astra Demo
+rtsp://192.168.0.36:554/?src=1&freq=12604&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,480,4096,4097
+
+#EXTINF:-1 tvg-chno="9019" channel-number="9019" tvg-name="Astra Demo",Astra Demo
+#EXTVLCOPT:http-title=Astra Demo
+rtsp://192.168.0.36:554/?src=1&freq=12604&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,51,4096,4097
+
+#EXTINF:-1 tvg-chno="9020" channel-number="9020" tvg-name="Astra Demo",Astra Demo
+#EXTVLCOPT:http-title=Astra Demo
+rtsp://192.168.0.36:554/?src=1&freq=12604&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,52,4096,4097
+
+#EXTINF:-1 tvg-chno="9021" channel-number="9021" tvg-name="TEST DZ5.",TEST DZ5.
+#EXTVLCOPT:http-title=TEST DZ5.
+rtsp://192.168.0.36:554/?src=1&freq=10758&pol=v&ro=0.35&msys=dvbs2&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,108,109,110,167,1030,5167
+
+#EXTINF:-1 tvg-chno="9022" channel-number="9022" tvg-name="DVB-S Network/11097V/{PMT:1041}",DVB-S Network/11097V/{PMT:1041}
+#EXTVLCOPT:http-title=DVB-S Network/11097V/{PMT:1041}
+rtsp://192.168.0.36:554/?src=1&freq=11097&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,1041,4000,4001,4002
+
+#EXTINF:-1 tvg-chno="9023" channel-number="9023" tvg-name="TEST RA",TEST RA
+#EXTVLCOPT:http-title=TEST RA
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,163,400,1076
+
+#EXTINF:-1 tvg-chno="9024" channel-number="9024" tvg-name="TEST M Baloncesto 3",TEST M Baloncesto 3
+#EXTVLCOPT:http-title=TEST M Baloncesto 3
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,88,89,90,162,1036,5162
+
+#EXTINF:-1 tvg-chno="9025" channel-number="9025" tvg-name="PORTADA",PORTADA
+#EXTVLCOPT:http-title=PORTADA
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,124,171,1083,5470
+
+#EXTINF:-1 tvg-chno="9026" channel-number="9026" tvg-name="BAJO DEMANDA",BAJO DEMANDA
+#EXTVLCOPT:http-title=BAJO DEMANDA
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,163,254,400,1035
+
+#EXTINF:-1 tvg-chno="9027" channel-number="9027" tvg-name="DVB-S Network/10847V/{PMT:1093}",DVB-S Network/10847V/{PMT:1093}
+#EXTVLCOPT:http-title=DVB-S Network/10847V/{PMT:1093}
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,163,254,400,1093
+
+#EXTINF:-1 tvg-chno="9028" channel-number="9028" tvg-name="GU",GU
+#EXTVLCOPT:http-title=GU
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,163,254,400,1096
+
+#EXTINF:-1 tvg-chno="9029" channel-number="9029" tvg-name="DVB-S Network/10847V/{PMT:1097}",DVB-S Network/10847V/{PMT:1097}
+#EXTVLCOPT:http-title=DVB-S Network/10847V/{PMT:1097}
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,163,254,400,1097
+
+#EXTINF:-1 tvg-chno="9030" channel-number="9030" tvg-name="DVB-S Network/10847V/{PMT:1098}",DVB-S Network/10847V/{PMT:1098}
+#EXTVLCOPT:http-title=DVB-S Network/10847V/{PMT:1098}
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,163,254,400,1098
+
+#EXTINF:-1 tvg-chno="9031" channel-number="9031" tvg-name="DVB-S Network/10847V/{PMT:1026}",DVB-S Network/10847V/{PMT:1026}
+#EXTVLCOPT:http-title=DVB-S Network/10847V/{PMT:1026}
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,163,254,400,1026
+
+#EXTINF:-1 tvg-chno="9032" channel-number="9032" tvg-name="Antig. ALQUILER G1",Antig. ALQUILER G1
+#EXTVLCOPT:http-title=Antig. ALQUILER G1
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,163,254,400,1099,8191
+
+#EXTINF:-1 tvg-chno="9033" channel-number="9033" tvg-name="TEST TP58",TEST TP58
+#EXTVLCOPT:http-title=TEST TP58
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,163,254,400,1038
+
+#EXTINF:-1 tvg-chno="9034" channel-number="9034" tvg-name="PORTADA",PORTADA
+#EXTVLCOPT:http-title=PORTADA
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,124,171,1024,5470
+
+#EXTINF:-1 tvg-chno="9035" channel-number="9035" tvg-name="DVB-S Network/10847V/{PMT:1025}",DVB-S Network/10847V/{PMT:1025}
+#EXTVLCOPT:http-title=DVB-S Network/10847V/{PMT:1025}
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,163,254,400,1025
+
+#EXTINF:-1 tvg-chno="9036" channel-number="9036" tvg-name="DVB-S Network/10847V/{PMT:1028}",DVB-S Network/10847V/{PMT:1028}
+#EXTVLCOPT:http-title=DVB-S Network/10847V/{PMT:1028}
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,163,254,400,1028
+
+#EXTINF:-1 tvg-chno="9037" channel-number="9037" tvg-name="DVB-S Network/10847V/{PMT:1033}",DVB-S Network/10847V/{PMT:1033}
+#EXTVLCOPT:http-title=DVB-S Network/10847V/{PMT:1033}
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,163,254,400,1033
+
+#EXTINF:-1 tvg-chno="9038" channel-number="9038" tvg-name="CONTRATO",CONTRATO
+#EXTVLCOPT:http-title=CONTRATO
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,163,254,400,1043
+
+#EXTINF:-1 tvg-chno="9039" channel-number="9039" tvg-name="TEST_CSD1",TEST_CSD1
+#EXTVLCOPT:http-title=TEST_CSD1
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,163,1048
+
+#EXTINF:-1 tvg-chno="9040" channel-number="9040" tvg-name="TEST_CSD2",TEST_CSD2
+#EXTVLCOPT:http-title=TEST_CSD2
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,163,400,1049
+
+#EXTINF:-1 tvg-chno="9041" channel-number="9041" tvg-name="TEST_CSD3",TEST_CSD3
+#EXTVLCOPT:http-title=TEST_CSD3
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,163,1050
+
+#EXTINF:-1 tvg-chno="9042" channel-number="9042" tvg-name="TEST_CSD4",TEST_CSD4
+#EXTVLCOPT:http-title=TEST_CSD4
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,163,254,400,1051
+
+#EXTINF:-1 tvg-chno="9043" channel-number="9043" tvg-name="TEST_CSD5",TEST_CSD5
+#EXTVLCOPT:http-title=TEST_CSD5
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,163,254,400,1052
+
+#EXTINF:-1 tvg-chno="9044" channel-number="9044" tvg-name="TJ",TJ
+#EXTVLCOPT:http-title=TJ
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,163,254,400,1053
+
+#EXTINF:-1 tvg-chno="9045" channel-number="9045" tvg-name="DVB-S Network/10847V/{PMT:1064}",DVB-S Network/10847V/{PMT:1064}
+#EXTVLCOPT:http-title=DVB-S Network/10847V/{PMT:1064}
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,163,254,400,1064
+
+#EXTINF:-1 tvg-chno="9046" channel-number="9046" tvg-name="DVB-S Network/10847V/{PMT:1065}",DVB-S Network/10847V/{PMT:1065}
+#EXTVLCOPT:http-title=DVB-S Network/10847V/{PMT:1065}
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,163,254,400,1065
+
+#EXTINF:-1 tvg-chno="9047" channel-number="9047" tvg-name="DVB-S Network/10847V/{PMT:1067}",DVB-S Network/10847V/{PMT:1067}
+#EXTVLCOPT:http-title=DVB-S Network/10847V/{PMT:1067}
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,163,254,400,1067
+
+#EXTINF:-1 tvg-chno="9048" channel-number="9048" tvg-name="DVB-S Network/10847V/{PMT:1068}",DVB-S Network/10847V/{PMT:1068}
+#EXTVLCOPT:http-title=DVB-S Network/10847V/{PMT:1068}
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,163,254,400,1068
+
+#EXTINF:-1 tvg-chno="9049" channel-number="9049" tvg-name="DVB-S Network/10847V/{PMT:1069}",DVB-S Network/10847V/{PMT:1069}
+#EXTVLCOPT:http-title=DVB-S Network/10847V/{PMT:1069}
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,163,254,400,1069
+
+#EXTINF:-1 tvg-chno="9050" channel-number="9050" tvg-name="DVB-S Network/10847V/{PMT:1070}",DVB-S Network/10847V/{PMT:1070}
+#EXTVLCOPT:http-title=DVB-S Network/10847V/{PMT:1070}
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,163,254,400,1070
+
+#EXTINF:-1 tvg-chno="9051" channel-number="9051" tvg-name="DVB-S Network/10847V/{PMT:1071}",DVB-S Network/10847V/{PMT:1071}
+#EXTVLCOPT:http-title=DVB-S Network/10847V/{PMT:1071}
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,163,254,400,1071
+
+#EXTINF:-1 tvg-chno="9052" channel-number="9052" tvg-name="GU FIL",GU FIL
+#EXTVLCOPT:http-title=GU FIL
+rtsp://192.168.0.36:554/?src=1&freq=10847&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,163,254,400,1072
+
+#EXTINF:-1 tvg-chno="9053" channel-number="9053" tvg-name="TEST F1",TEST F1
+#EXTVLCOPT:http-title=TEST F1
+rtsp://192.168.0.36:554/?src=1&freq=10788&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,1049,4010,4011,4012
+
+#EXTINF:-1 tvg-chno="9054" channel-number="9054" tvg-name="DVB-S Network/10935.5V/{PMT:1034}",DVB-S Network/10935.5V/{PMT:1034}
+#EXTVLCOPT:http-title=DVB-S Network/10935.5V/{PMT:1034}
+rtsp://192.168.0.36:554/?src=1&freq=10936&pol=v&ro=0.35&msys=dvbs&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,86,87,161,1034
+
+#EXTINF:-1 tvg-chno="9055" channel-number="9055" tvg-name="rfo Regional Fernsehen Oberbayern HD",rfo Regional Fernsehen Oberbayern HD
+#EXTVLCOPT:http-title=rfo Regional Fernsehen Oberbayern HD
+rtsp://192.168.0.36:554/?src=1&freq=11553&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,103,1030,1032
+
+#EXTINF:-1 tvg-chno="9056" channel-number="9056" tvg-name="Lokal-TV-Portal HD",Lokal-TV-Portal HD
+#EXTVLCOPT:http-title=Lokal-TV-Portal HD
+rtsp://192.168.0.36:554/?src=1&freq=11553&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,106,1001
+
+#EXTINF:-1 tvg-chno="9100" channel-number="9100" tvg-name="arte Mediathek (Internet)",arte Mediathek (Internet)
+#EXTVLCOPT:http-title=arte Mediathek (Internet)
+rtsp://192.168.0.36:554/?src=1&freq=11523&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,331,332,333,340
+
+#EXTINF:-1 tvg-chno="9105" channel-number="9105" tvg-name="DVB-S Network/12363V/{PMT:1284}",DVB-S Network/12363V/{PMT:1284}
+#EXTVLCOPT:http-title=DVB-S Network/12363V/{PMT:1284}
+rtsp://192.168.0.36:554/?src=1&freq=12363&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,1284,2047,8191
+
+#EXTINF:-1 tvg-chno="9106" channel-number="9106" tvg-name="DVB-S Network/12363V/{PMT:1285}",DVB-S Network/12363V/{PMT:1285}
+#EXTVLCOPT:http-title=DVB-S Network/12363V/{PMT:1285}
+rtsp://192.168.0.36:554/?src=1&freq=12363&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,1285,2047,8191
+
+#EXTINF:-1 tvg-chno="9107" channel-number="9107" tvg-name="DVB-S Network/12363V/{PMT:1287}",DVB-S Network/12363V/{PMT:1287}
+#EXTVLCOPT:http-title=DVB-S Network/12363V/{PMT:1287}
+rtsp://192.168.0.36:554/?src=1&freq=12363&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,1287,2047,8191
+
+#EXTINF:-1 tvg-chno="9108" channel-number="9108" tvg-name="DVB-S Network/12363V/{PMT:1292}",DVB-S Network/12363V/{PMT:1292}
+#EXTVLCOPT:http-title=DVB-S Network/12363V/{PMT:1292}
+rtsp://192.168.0.36:554/?src=1&freq=12363&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,1292,2047,8191
+
+#EXTINF:-1 tvg-chno="9130" channel-number="9130" tvg-name="DVB-S Network/12363V/{PMT:1310}",DVB-S Network/12363V/{PMT:1310}
+#EXTVLCOPT:http-title=DVB-S Network/12363V/{PMT:1310}
+rtsp://192.168.0.36:554/?src=1&freq=12363&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,1310,2047,8191
+
+#EXTINF:-1 tvg-chno="9131" channel-number="9131" tvg-name="CANAL VOD",CANAL VOD
+#EXTVLCOPT:http-title=CANAL VOD
+rtsp://192.168.0.36:554/?src=1&freq=12363&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,1311,2047,8191
+
+#EXTINF:-1 tvg-chno="9133" channel-number="9133" tvg-name="CANAL+SERIES",CANAL+SERIES
+#EXTVLCOPT:http-title=CANAL+SERIES
+rtsp://192.168.0.36:554/?src=1&freq=12363&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,1313,2047,8191
+
+#EXTINF:-1 tvg-chno="9148" channel-number="9148" tvg-name="DVB-S Network/12363V/{PMT:1327}",DVB-S Network/12363V/{PMT:1327}
+#EXTVLCOPT:http-title=DVB-S Network/12363V/{PMT:1327}
+rtsp://192.168.0.36:554/?src=1&freq=12363&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,1327,2048,2049,8191
+
+#EXTINF:-1 tvg-chno="9160" channel-number="9160" tvg-name="DVB-S Network/12363V/{PMT:1302}",DVB-S Network/12363V/{PMT:1302}
+#EXTVLCOPT:http-title=DVB-S Network/12363V/{PMT:1302}
+rtsp://192.168.0.36:554/?src=1&freq=12363&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,1302,4912,4913,8191
+
+#EXTINF:-1 tvg-chno="9170" channel-number="9170" tvg-name="DVB-S Network/12363V/{PMT:1341}",DVB-S Network/12363V/{PMT:1341}
+#EXTVLCOPT:http-title=DVB-S Network/12363V/{PMT:1341}
+rtsp://192.168.0.36:554/?src=1&freq=12363&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,1341,2047,8191
+
+#EXTINF:-1 tvg-chno="9196" channel-number="9196" tvg-name="DVB-S Network/12363V/{PMT:1308}",DVB-S Network/12363V/{PMT:1308}
+#EXTVLCOPT:http-title=DVB-S Network/12363V/{PMT:1308}
+rtsp://192.168.0.36:554/?src=1&freq=12363&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,1308,2047,8191
+
+#EXTINF:-1 tvg-chno="60000" channel-number="60000" tvg-name="TELEGOLD 2",TELEGOLD 2
+#EXTVLCOPT:http-title=TELEGOLD 2
+rtsp://192.168.0.36:554/?src=1&freq=12460&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,105,2815,2816
+
+#EXTINF:-1 tvg-chno="60002" channel-number="60002" tvg-name="Shop LC",Shop LC
+#EXTVLCOPT:http-title=Shop LC
+rtsp://192.168.0.36:554/?src=1&freq=12148&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,113,1023,1024
+
+#EXTINF:-1 tvg-chno="60003" channel-number="60003" tvg-name="MediaShop- Meine Einkaufswelt",MediaShop- Meine Einkaufswelt
+#EXTVLCOPT:http-title=MediaShop- Meine Einkaufswelt
+rtsp://192.168.0.36:554/?src=1&freq=12148&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,114,1279,1280
+
+#EXTINF:-1 tvg-chno="60004" channel-number="60004" tvg-name="HGTV",HGTV
+#EXTVLCOPT:http-title=HGTV
+rtsp://192.168.0.36:554/?src=1&freq=10921&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=78&pids=0,17,18,99,1023,1024
+
+#EXTINF:-1 tvg-chno="60005" channel-number="60005" tvg-name="HSE SD",HSE SD
+#EXTVLCOPT:http-title=HSE SD
+rtsp://192.168.0.36:554/?src=1&freq=12480&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,104,1279,1280
+
+#EXTINF:-1 tvg-chno="60006" channel-number="60006" tvg-name="Handystar TV 2",Handystar TV 2
+#EXTVLCOPT:http-title=Handystar TV 2
+rtsp://192.168.0.36:554/?src=1&freq=12480&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,106,1791,1792
+
+#EXTINF:-1 tvg-chno="60007" channel-number="60007" tvg-name="QVC",QVC
+#EXTVLCOPT:http-title=QVC
+rtsp://192.168.0.36:554/?src=1&freq=12460&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,96,255,256
+
+#EXTINF:-1 tvg-chno="60008" channel-number="60008" tvg-name="RiC NEU",RiC NEU
+#EXTVLCOPT:http-title=RiC NEU
+rtsp://192.168.0.36:554/?src=1&freq=11303&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,130,1930,1931
+
+#EXTINF:-1 tvg-chno="60009" channel-number="60009" tvg-name="sonnenklar.TV HD",sonnenklar.TV HD
+#EXTVLCOPT:http-title=sonnenklar.TV HD
+rtsp://192.168.0.36:554/?src=1&freq=12574&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,96,255,259
+
+#EXTINF:-1 tvg-chno="60010" channel-number="60010" tvg-name="Juwelo HD",Juwelo HD
+#EXTVLCOPT:http-title=Juwelo HD
+rtsp://192.168.0.36:554/?src=1&freq=12574&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,99,1023,1024
+
+#EXTINF:-1 tvg-chno="60011" channel-number="60011" tvg-name="pearl.tv HD Shop",pearl.tv HD Shop
+#EXTVLCOPT:http-title=pearl.tv HD Shop
+rtsp://192.168.0.36:554/?src=1&freq=12574&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,100,1279,1280
+
+#EXTINF:-1 tvg-chno="60012" channel-number="60012" tvg-name="HSE Extra HD",HSE Extra HD
+#EXTVLCOPT:http-title=HSE Extra HD
+rtsp://192.168.0.36:554/?src=1&freq=10803&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=34&pids=0,17,18,97,511,515
+
+#EXTINF:-1 tvg-chno="60013" channel-number="60013" tvg-name="123.live",123.live
+#EXTVLCOPT:http-title=123.live
+rtsp://192.168.0.36:554/?src=1&freq=10803&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=34&pids=0,17,18,98,767,771
+
+#EXTINF:-1 tvg-chno="60014" channel-number="60014" tvg-name="QVC ZWEI HD",QVC ZWEI HD
+#EXTVLCOPT:http-title=QVC ZWEI HD
+rtsp://192.168.0.36:554/?src=1&freq=10803&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=34&pids=0,17,18,100,1279,1283
+
+#EXTINF:-1 tvg-chno="60015" channel-number="60015" tvg-name="Handystar TV",Handystar TV
+#EXTVLCOPT:http-title=Handystar TV
+rtsp://192.168.0.36:554/?src=1&freq=12460&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,108,3071,3072
+
+#EXTINF:-1 tvg-chno="60015" channel-number="60015" tvg-name="TELEGOLD SD",TELEGOLD SD
+#EXTVLCOPT:http-title=TELEGOLD SD
+rtsp://192.168.0.36:554/?src=1&freq=12633&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,53,54,105
+
+#EXTINF:-1 tvg-chno="60016" channel-number="60016" tvg-name="HSE Trend SD",HSE Trend SD
+#EXTVLCOPT:http-title=HSE Trend SD
+rtsp://192.168.0.36:554/?src=1&freq=12480&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,110,3071,3072
+
+#EXTINF:-1 tvg-chno="60017" channel-number="60017" tvg-name="Handystar TV HD",Handystar TV HD
+#EXTVLCOPT:http-title=Handystar TV HD
+rtsp://192.168.0.36:554/?src=1&freq=10964&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,98,767,771
+
+#EXTINF:-1 tvg-chno="60018" channel-number="60018" tvg-name="HSE Trend HD",HSE Trend HD
+#EXTVLCOPT:http-title=HSE Trend HD
+rtsp://192.168.0.36:554/?src=1&freq=10964&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,100,1279,1283
+
+#EXTINF:-1 tvg-chno="60019" channel-number="60019" tvg-name="QVC Deutschland",QVC Deutschland
+#EXTVLCOPT:http-title=QVC Deutschland
+rtsp://192.168.0.36:554/?src=1&freq=12552&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,165,166,1030
+
+#EXTINF:-1 tvg-chno="60019" channel-number="60019" tvg-name="QVC STYLE HD",QVC STYLE HD
+#EXTVLCOPT:http-title=QVC STYLE HD
+rtsp://192.168.0.36:554/?src=1&freq=10964&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,101,1535,1539
+
+#EXTINF:-1 tvg-chno="60020" channel-number="60020" tvg-name="Shop LC",Shop LC
+#EXTVLCOPT:http-title=Shop LC
+rtsp://192.168.0.36:554/?src=1&freq=12663&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,1060,1061,1106
+
+#EXTINF:-1 tvg-chno="60020" channel-number="60020" tvg-name="Shop LC",Shop LC
+#EXTVLCOPT:http-title=Shop LC
+rtsp://192.168.0.36:554/?src=1&freq=12633&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,116,1041,1061
+
+#EXTINF:-1 tvg-chno="60021" channel-number="60021" tvg-name="Genius TV",Genius TV
+#EXTVLCOPT:http-title=Genius TV
+rtsp://192.168.0.36:554/?src=1&freq=12663&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,1110,1111,1210
+
+#EXTINF:-1 tvg-chno="60021" channel-number="60021" tvg-name="Service 13101",Service 13101
+#EXTVLCOPT:http-title=Service 13101
+rtsp://192.168.0.36:554/?src=1&freq=12663&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,1010,1101
+
+#EXTINF:-1 tvg-chno="60022" channel-number="60022" tvg-name="Service 13111",Service 13111
+#EXTVLCOPT:http-title=Service 13111
+rtsp://192.168.0.36:554/?src=1&freq=12663&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,1010,1211
+
+#EXTINF:-1 tvg-chno="60024" channel-number="60024" tvg-name="Stimmungsgarten TV",Stimmungsgarten TV
+#EXTVLCOPT:http-title=Stimmungsgarten TV
+rtsp://192.168.0.36:554/?src=1&freq=11273&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,316,3160,3161
+
+#EXTINF:-1 tvg-chno="60025" channel-number="60025" tvg-name="Melodie TV NEU",Melodie TV NEU
+#EXTVLCOPT:http-title=Melodie TV NEU
+rtsp://192.168.0.36:554/?src=1&freq=11273&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,317,3170,3171
+
+#EXTINF:-1 tvg-chno="60026" channel-number="60026" tvg-name="QVC HD",QVC HD
+#EXTVLCOPT:http-title=QVC HD
+rtsp://192.168.0.36:554/?src=1&freq=10773&pol=h&ro=0.20&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=34&pids=0,17,18,99,1023,1027
+
+#EXTINF:-1 tvg-chno="60027" channel-number="60027" tvg-name="HSE HD",HSE HD
+#EXTVLCOPT:http-title=HSE HD
+rtsp://192.168.0.36:554/?src=1&freq=10773&pol=h&ro=0.20&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=34&pids=0,17,18,100,1279,1283
+
+#EXTINF:-1 tvg-chno="60028" channel-number="60028" tvg-name="ShopLC HD",ShopLC HD
+#EXTVLCOPT:http-title=ShopLC HD
+rtsp://192.168.0.36:554/?src=1&freq=10773&pol=h&ro=0.20&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=34&pids=0,17,18,97,511,512,513
+
+#EXTINF:-1 tvg-chno="60030" channel-number="60030" tvg-name="HSE Extra",HSE Extra
+#EXTVLCOPT:http-title=HSE Extra
+rtsp://192.168.0.36:554/?src=1&freq=12226&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,259,512,660
+
+#EXTINF:-1 tvg-chno="60031" channel-number="60031" tvg-name="Sonnenklar TV",Sonnenklar TV
+#EXTVLCOPT:http-title=Sonnenklar TV
+rtsp://192.168.0.36:554/?src=1&freq=12480&pol=v&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=27500&fec=34&pids=0,17,18,97,2303,2304
+
+#EXTINF:-1 tvg-chno="60032" channel-number="60032" tvg-name="WOTSCH",WOTSCH
+#EXTVLCOPT:http-title=WOTSCH
+rtsp://192.168.0.36:554/?src=1&freq=11553&pol=h&ro=0.35&msys=dvbs2&mtype=8psk&plts=on&sr=22000&fec=23&pids=0,17,18,111,1110
+
+#EXTINF:-1 tvg-chno="60034" channel-number="60034" tvg-name="LILO.TV",LILO.TV
+#EXTVLCOPT:http-title=LILO.TV
+rtsp://192.168.0.36:554/?src=1&freq=11244&pol=h&ro=0.35&msys=dvbs&mtype=qpsk&plts=on&sr=22000&fec=56&pids=0,17,18,222,2220,2221
+

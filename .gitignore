@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# But keep these files
+!Copyright.txt
+!License.md
+!README.md
+!MvT_dedup.py
+!MvT_previewTiles.py
+!MvT_movieInfo.py
+!.gitignore
+!*.7z
