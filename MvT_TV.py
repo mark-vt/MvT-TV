@@ -1324,19 +1324,26 @@ class DvbSiParser:
                                 items.append(f"{item_description}: {item_value}")
                         parts = items + ([description] if description else [])
                         if parts:
-                            extended_descriptions[descriptor_number] = "\n".join(parts)
+                            # Extended-event text is split across numbered DVB
+                            # descriptors at arbitrary character boundaries.
+                            extended_descriptions[descriptor_number] = " ".join(parts)
                 dpos += 2 + length
             if start is not None:
-                description_parts = [short_description] + [
+                extended_text = "".join(
                     extended_descriptions[number]
                     for number in sorted(extended_descriptions)
-                ]
+                )
+                description = short_description.strip()
+                if description and extended_text:
+                    description += " "
+                description += extended_text
                 events.append({
                     "id": event_id,
                     "start": start,
                     "end": start + duration,
                     "title": title or "(ohne Titel)",
-                    "description": "\n\n".join(part for part in description_parts if part),
+                    "short_description": short_description.strip(),
+                    "description": extended_text,
                     "version": version,
                 })
             pos = dend
@@ -4316,7 +4323,10 @@ class MvTTV:
         def event_key(event: object) -> tuple | None:
             if not event:
                 return None
-            return (event["id"], event["title"], event["start"], event["end"])
+            return (
+                event["id"], event["title"], event["start"], event["end"],
+                event.get("short_description", ""),
+            )
 
         signature = (service_id, event_key(current), event_key(following))
         if (self.now_next_window is not None
@@ -4357,7 +4367,7 @@ class MvTTV:
         ttk.Label(frame, textvariable=clock, font=clock_font).grid(row=0, column=1, sticky="w")
         ttk.Label(frame, text=service_name, font=clock_font).grid(row=0, column=2, sticky="w", padx=(20, 0))
         self._add_event_line(frame, 1, "JETZT", current)
-        self._add_event_line(frame, 2, "DANACH", following)
+        self._add_event_line(frame, 3, "DANACH", following)
         self._update_overlay_clock(clock)
 
         self.root.update_idletasks()
@@ -4386,11 +4396,15 @@ class MvTTV:
         service_id = self.find_service_id()
         now = datetime.now().astimezone()
         current = None
+        following = None
         if service_id is not None:
             for event in self.dvb.events.get(service_id, []):
                 if event["start"] <= now < event["end"]:
                     current = event
-                    break
+                elif event["start"] > now and (
+                    following is None or event["start"] < following["start"]
+                ):
+                    following = event
         service_name = (
             self.dvb.service_names.get(service_id, "") if service_id is not None else ""
         ) or (self.channels[self.channel_index].name if self.channels else "Fernsehen")
@@ -4422,44 +4436,71 @@ class MvTTV:
         ttk.Label(frame, text=service_name, font=("Sans", 14, "bold")).grid(
             row=1, column=content_column, sticky="w", pady=(2, 8)
         )
-        if current:
-            title = str(current.get("title", "(ohne Titel)"))
-            time_text = (
-                f"{current['start'].strftime('%H:%M')} – "
-                f"{current['end'].strftime('%H:%M')}"
-            )
-            description = str(current.get("description", "")).strip()
-        else:
-            title = "Keine aktuelle Sendungsinformation verfügbar"
-            time_text = ""
-            description = "Für diese Sendung wurden noch keine EPG-Daten empfangen."
-
-        ttk.Label(
-            frame, text=title, font=("Sans", 19, "bold"), wraplength=760,
-            justify="left",
-        ).grid(row=2, column=content_column, sticky="w", pady=(0, 6))
-        ttk.Label(
-            frame, text=time_text, font=("Sans", 12),
-        ).grid(row=3, column=content_column, sticky="w", pady=(0, 12))
-        description_label = ttk.Label(
-            frame,
-            text=description or "Keine ausführliche Beschreibung verfügbar.",
-            font=("Sans", 12),
-            wraplength=760,
-            justify="left",
+        frame.columnconfigure(content_column, weight=1)
+        frame.rowconfigure(2, weight=1)
+        text_frame = ttk.Frame(frame)
+        text_frame.grid(row=2, column=content_column, sticky="nsew", pady=(4, 0))
+        text_frame.columnconfigure(0, weight=1)
+        text_frame.rowconfigure(0, weight=1)
+        info_text = tk.Text(
+            text_frame, wrap="word", width=88, height=20,
+            font=("Sans", 12), padx=10, pady=8,
+            background="#181818", foreground="#eeeeee",
+            insertbackground="#eeeeee", relief="flat", borderwidth=0,
+            spacing1=2, spacing3=5,
         )
-        description_label.grid(row=4, column=content_column, sticky="nw")
+        info_scrollbar = ttk.Scrollbar(
+            text_frame, orient="vertical", command=info_text.yview,
+        )
+        info_text.configure(yscrollcommand=info_scrollbar.set)
+        info_text.grid(row=0, column=0, sticky="nsew")
+        info_scrollbar.grid(row=0, column=1, sticky="ns")
+        info_text.tag_configure("section", font=("Sans", 11, "bold"), foreground="#f0c75e")
+        info_text.tag_configure("title", font=("Sans", 19, "bold"), foreground="#ffffff")
+        info_text.tag_configure("time", font=("Sans", 12, "bold"), foreground="#c8c8c8")
+        info_text.tag_configure("short_description", font=("Sans", 12, "bold"))
+
+        def add_event_section(label: str, event: object, missing: str) -> None:
+            info_text.insert("end", label + "\n", "section")
+            if event is None:
+                info_text.insert("end", missing + "\n\n")
+                return
+            event_title = str(event.get("title", "(ohne Titel)"))
+            event_time = (
+                f"{event['start'].strftime('%H:%M')} – "
+                f"{event['end'].strftime('%H:%M')}"
+            )
+            event_description = str(event.get("description", "")).strip()
+            short_description = str(event.get("short_description", "")).strip()
+            info_text.insert("end", event_time + "  ", "time")
+            info_text.insert("end", event_title + "\n", "title")
+            if short_description:
+                info_text.insert("end", short_description + "\n", "short_description")
+            info_text.insert(
+                "end",
+                (event_description or "Keine ausführliche Beschreibung verfügbar.") + "\n\n",
+            )
+
+        add_event_section(
+            "JETZT", current,
+            "Keine aktuelle Sendungsinformation verfügbar. Für diese Sendung wurden noch keine EPG-Daten empfangen.",
+        )
+        add_event_section(
+            "ALS NÄCHSTES", following,
+            "Keine Information zur folgenden Sendung verfügbar.",
+        )
+        info_text.configure(state="disabled")
 
         ttk.Button(frame, text="Schließen (i)", command=self.close_program_info).grid(
-            row=5, column=content_column, sticky="e", pady=(16, 0)
+            row=3, column=content_column, sticky="e", pady=(12, 0)
         )
         win.bind("<Escape>", self.close_program_info_event)
         win.bind("<KeyPress-i>", self.close_program_info_event)
         win.bind("<KeyPress-I>", self.close_program_info_event)
 
         self.root.update_idletasks()
-        width = win.winfo_reqwidth()
-        height = win.winfo_reqheight()
+        width = min(max(700, win.winfo_reqwidth()), max(500, self.root.winfo_screenwidth() - 80))
+        height = min(max(500, win.winfo_reqheight()), max(400, self.root.winfo_screenheight() - 100))
         x = self.root.winfo_rootx() + max(20, (self.root.winfo_width() - width) // 2)
         y = self.root.winfo_rooty() + max(20, (self.root.winfo_height() - height) // 3)
         win.geometry(f"{width}x{height}+{x}+{y}")
@@ -4494,6 +4535,13 @@ class MvTTV:
             text = f"{event['start'].strftime('%H:%M')} – {event['end'].strftime('%H:%M')}   {event['title']}"
         ttk.Label(parent, text=label, width=8, font=("Sans", 10, "bold")).grid(row=row, column=1, sticky="w")
         ttk.Label(parent, text=text, font=("Sans", 17)).grid(row=row, column=2, sticky="w", padx=(20, 0))
+        if event:
+            short_description = str(event.get("short_description", "")).strip()
+            if short_description:
+                ttk.Label(
+                    parent, text=short_description, font=("Sans", 14),
+                    wraplength=700, justify="left",
+                ).grid(row=row + 1, column=2, sticky="w", padx=(20, 0), pady=(2, 8))
 
     # Keep the displayed clock current while the Now/Next overlay is visible.
     # Inputs: variable.
