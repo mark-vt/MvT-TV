@@ -9,5 +9,7 @@
 !MvT_TV.m3u
 !tvh_m3u.py
 !.gitignore
+!icon*
+!*.desktop
 !*.7z
 

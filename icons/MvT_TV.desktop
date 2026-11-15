@@ -1,0 +1,17 @@
+[Desktop Entry]
+Comment[de_DE]=
+Comment=
+Exec=/home/markus/GIT/MvT-TV/MvT_TV.py
+GenericName[de_DE]=MvT_TV
+GenericName=MvT_TV
+Icon=/home/markus/GIT/MvT-TV/icons/icon_512.png
+MimeType=
+Name[de_DE]=MvT_TV
+Name=MvT_TV
+Path=/home/markus/GIT/MvT-TV
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
