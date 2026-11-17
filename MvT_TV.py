@@ -191,6 +191,7 @@ DEFAULTS = {
     "playlist_window_min": "0",
     "ffmpeg_path": "ffmpeg",
     "volume": "50",
+    "volume_step": "5",
     "now_next_timeout": "4",
     "last_channel": "1",
     "window_geometry": "1100x700+100+100",
@@ -2981,6 +2982,7 @@ class SettingsDialog(tk.Toplevel):
             ("Min. Tempo (z. B. 0.97)", "speed_min"),
             ("Max. Tempo (z. B. 1.03)", "speed_max"),
             ("Now & Next Anzeige (s)", "now_next_timeout"),
+            ("Lautstärke-Schritt (%)", "volume_step"),
             ("Now & Next Logo-Hintergrund (Hex, z. B. A0A0A0)", "logo_bg"),
             ("Senderliste: Breite (px)", "list_width"),
             ("Senderliste: Schriftgröße", "list_font_size"),
@@ -3221,6 +3223,9 @@ class SettingsDialog(tk.Toplevel):
             float(self.vars["timeshift_size_gb"].get())
             float(self.vars["timeshift_ram_size_gb"].get())
             int(self.vars["now_next_timeout"].get())
+            volume_step = int(self.vars["volume_step"].get())
+            if not (1 <= volume_step <= 100):
+                raise ValueError("volume_step")
             float(self.vars["live_delay_s"].get())
             float(self.vars["playlist_window_min"].get())
             target_s = float(self.vars["buffer_target_s"].get().replace(",", "."))
@@ -3253,7 +3258,8 @@ class SettingsDialog(tk.Toplevel):
                 "(Puffer 1–9 s, Segmentlänge 1–4, Analysezeit 0.5–5 s, "
                 "Min. Tempo 0.5–1.0, Max. Tempo 1.0–1.5, Senderliste 50–2000 px, "
                 "Schriftgröße 6–72, Tooltip 0.5–60 s, Titelzeile 0–3600 s, "
-                "Timeshift-Anzeige 3–600 s, Logo-Hintergrund als 6-stelliger Hex-Wert).",
+                "Timeshift-Anzeige 3–600 s, Lautstärke-Schritt 1–100 %, "
+                "Logo-Hintergrund als 6-stelliger Hex-Wert).",
                 parent=self,
             )
             return
@@ -3511,8 +3517,8 @@ class MvTTV:
             ("<", lambda: self.seek(-self.small_jump()), "Icon.TButton"),
             (">", lambda: self.seek(self.small_jump()), "Icon.TButton"),
             (">>", lambda: self.seek(self.big_jump()), "Icon.TButton"),
-            ("█▆▃▁", lambda: self.change_volume(-5), "Icon.TButton"),
-            ("▁▃▆█", lambda: self.change_volume(5), "Icon.TButton"),
+            ("█▆▃▁", lambda: self.change_volume(-self.volume_step()), "Icon.TButton"),
+            ("▁▃▆█", lambda: self.change_volume(self.volume_step()), "Icon.TButton"),
             ("☰", self.toggle_channel_list, "Icon.TButton"),
             ("⚙", self.open_settings, "Icon.TButton"),
         ]
@@ -3639,8 +3645,8 @@ class MvTTV:
             "small_forward": lambda: self.seek(self.small_jump()),
             "big_back": lambda: self.seek(-self.big_jump()),
             "big_forward": lambda: self.seek(self.big_jump()),
-            "volume_up": lambda: self.change_volume(5),
-            "volume_down": lambda: self.change_volume(-5),
+            "volume_up": lambda: self.change_volume(self.volume_step()),
+            "volume_down": lambda: self.change_volume(-self.volume_step()),
             "record": self.toggle_recording, "fullscreen": self.toggle_fullscreen,
             "record_pause": self.toggle_recording_pause,
             "info": self.toggle_program_info,
@@ -3819,6 +3825,13 @@ class MvTTV:
     # Purpose: Return the number of seconds used for a long seek.
     def big_jump(self) -> int:
         return max(1, int(self.config.get("big_jump")))
+
+    # Return the configured volume change in percent.
+    # Inputs: none.
+    # Returns: int.
+    # Purpose: Use the same volume step for buttons and keyboard shortcuts.
+    def volume_step(self) -> int:
+        return max(1, min(100, int(self.config.get("volume_step"))))
 
     # Start the selected channel and create the local timeshift pipeline.
     # Inputs: none.
