@@ -1983,7 +1983,6 @@ class Timeshift:
         lines = [
             "#EXTM3U",
             "#EXT-X-VERSION:3",
-            *([] if finite else ["#EXT-X-PLAYLIST-TYPE:EVENT"]),
             f"#EXT-X-TARGETDURATION:{target}",
             f"#EXT-X-MEDIA-SEQUENCE:{selected[0][0]}",
         ]
@@ -2494,8 +2493,7 @@ class MpvPlayer:
     # Inputs: url, paused.
     # Returns: float | None.
     # Purpose: Tell the video player to play the timeshift playlist.
-    def play_timeshift(self, url: str, paused: bool,
-                       start_offset: float = 0.0) -> float | None:
+    def play_timeshift(self, url: str, paused: bool) -> float | None:
         self.direct_live = True
         self.timeshifted = True
         self.is_paused = bool(paused)
@@ -2512,17 +2510,6 @@ class MpvPlayer:
         while time.monotonic() < deadline:
             position = self._get_property("time-pos")
             if isinstance(position, (int, float)):
-                if start_offset > 0.05:
-                    # The HLS playlist starts at the beginning of the segment
-                    # containing the requested wall-clock time. Continue to
-                    # the exact point within that segment after mpv has loaded.
-                    self.command("seek", start_offset, "absolute+exact")
-                    seek_deadline = time.monotonic() + 1.0
-                    while time.monotonic() < seek_deadline:
-                        position = self._get_property("time-pos")
-                        if isinstance(position, (int, float)) and position >= start_offset - 0.5:
-                            break
-                        time.sleep(0.05)
                 self.last_position = float(position)
                 return self.last_position
             time.sleep(0.05)
@@ -3046,9 +3033,14 @@ class SettingsDialog(tk.Toplevel):
 
         row = len(fields)
         ttk.Label(frame, text="Abspieler").grid(row=row, column=0, sticky="w", pady=4)
-        self.player_var = tk.StringVar(value=self.config.get("player"))
-        ttk.Combobox(frame, textvariable=self.player_var, values=("mpv", "vlc"),
-                     state="readonly", width=39).grid(row=row, column=1, sticky="ew", pady=4)
+        player = self.config.get("player").lower()
+        self.player_var = tk.StringVar(value=player if player in ("mpv", "vlc") else "mpv")
+        player_frame = ttk.Frame(frame)
+        player_frame.grid(row=row, column=1, sticky="w", pady=4)
+        ttk.Radiobutton(player_frame, text="mpv", value="mpv",
+                        variable=self.player_var).pack(side="left")
+        ttk.Radiobutton(player_frame, text="VLC", value="vlc",
+                        variable=self.player_var).pack(side="left", padx=(12, 0))
         row += 1
         ttk.Label(frame, text="Quelle").grid(row=row, column=0, sticky="w", pady=4)
         self.source_var = tk.StringVar(value=self.config.get("source_mode"))
@@ -3933,12 +3925,14 @@ class MvTTV:
 
         channel = self.channels[index]
         live_direct = self.config.get("live_path").lower() != "hls"
-        # In direct mode the player process stays alive between channels.
-        self.stop(keep_player=live_direct)
+        player_kind = self.config.get("player").lower()
+        # Restart mpv in direct mode so it drops the previous relay connection
+        # before opening the next channel. VLC can keep its process alive.
+        keep_player = live_direct and player_kind == "vlc"
+        self.stop(keep_player=keep_player)
         t_switch = time.monotonic()
 
         try:
-            player_kind = self.config.get("player").lower()
             source_mode = self.config.get("source_mode").lower()
             # The mpv-native disk cache is one opaque file and cannot rotate
             # old data safely. Use the managed rolling ring for chunk eviction.
@@ -4647,16 +4641,18 @@ class MvTTV:
             # Too close to live for the segment-based ring: show live.
             self._enter_live()
             return
-        # Both players need a playlist that grows as new segments arrive.
-        # A finite VLC snapshot ends after its initial backlog, even though
-        # the timeshift ring continues receiving data.
-        prepared = self.timeshift.prepare_from(target_wall, finite=False)
+        prepared = self.timeshift.prepare_from(
+            target_wall, finite=isinstance(self.mpv, VlcPlayer)
+        )
         if prepared is None:
             self.status_var.set("Timeshift: für diese Position noch keine Daten")
             return
         url, start_wall, end_wall = prepared
         start_offset = max(0.0, target_wall - start_wall)
-        first_position = self.mpv.play_timeshift(url, start_paused, start_offset)
+        if isinstance(self.mpv, MpvPlayer):
+            first_position = self.mpv.play_timeshift(url, start_paused)
+        else:
+            first_position = self.mpv.play_timeshift(url, start_paused, start_offset)
         self.view_mode = "timeshift"
         self.paused = start_paused
         if isinstance(self.mpv, VlcPlayer):
@@ -4701,6 +4697,9 @@ class MvTTV:
             wall = self._timeshift_wall_position()
             if wall is not None:
                 lag = time.time() - wall
+                if isinstance(self.mpv, MpvPlayer) and lag < self._live_edge():
+                    self._enter_live()
+                    return
                 self.status_var.set(f"Timeshift −{lag:.0f} s  (L = Live)")
         self.watch_after_id = self.root.after(1000, self._timeshift_watch)
 
